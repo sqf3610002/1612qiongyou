@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*全局样式*/
+/*顶端固定定位*/
+#bag_banner{
+	width: 4.14rem;
+	height: 0.65rem;
+	display: block;
+}
+#bag_banner .bag_inner{
+	height: 0.65rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+#bag_banner .bag_inner img{
+	display: block;
+	width: 100%;
+}
+#bag_header{
+	height: 0.44rem;
+	width: 100%;
+	background: #000;
+	display: flex;
+}
+#bag_header .bag_title{
+	font-size: 0.14rem;
+	margin: 0 32%;
+	line-height: 0.44rem;
+	color: #fff;
+	font-weight: normal;
+}
+#bag_header img{
+	height: 0.44rem;
+}
+/*搜索*/
+#bag_search{
+	background: #ecece5;
+	width: 100%;
+	height: 0.48rem;
+	padding: 0.08rem 0.1rem;
+}
+#bag_search>input{
+	background:#fff url(http://static.qyer.com/images/m/ios7/topsch.png) no-repeat left center;
+	height: 0.32rem;
+	width: 100%;
+	font-size: 100%;
+	border: none;
+	color: #636363;
+	font-size: 0.12rem;
+	display: block;
+	text-indent: 0.4rem;
+	background-size: 10%;
+}
+/*导航*/
+#bag_nav{
+	width: 100%;
+	height: 0.84rem;
+}
+#bag_nav .guideMenu{
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: solid 1px #ddd;
+}
+#bag_nav .guideMenu li{
+	width: 24%;
+	height: 0.28rem;
+	margin: 0.07rem 0;
+	text-align: center;
+	border-right: solid 1px #ddd;
+}
+#bag_nav .guideMenu li:last-of-type{
+	border-right: none;
+}
+#bag_nav .guideMenu li:nth-of-type(4){
+	border-right: none;
+}
+#bag_nav .guideMenu li span{
+	display: block;
+	padding: 0.05rem 0.12rem;
+	font-size: 0.16rem;
+	width: 100%;
+}
+#bag_nav .guideMenu li .show{
+	background: #f00;
+	width: 78%;
+	margin-left: 10%;
+	border: solid 1px #f00;
+	border-radius: 5px;
+	color: #fff;
+}
+/*主体*/
+#bag_main{
+	background: #ecece5;
+	padding: 0.1rem 0.13rem;
+	padding-bottom: 0.3rem;
+	border-bottom: solid 2px green;
+}
+#bag_main .guideList{
+	width: 100%;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+#bag_main .guideList li{
+	width: 33.3%;
+	border-right: solid 1px #ddd;
+	padding: 0.1rem 0;
+	border-bottom: solid 1px #ddd;
+}
+#bag_main .guideList li a{
+	font-size: 0.13rem;
+	color: #2c2c2c;
+	display: block;
+}
+#bag_main .guideList li img{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+#bag_main .guideList li p{
+	text-align: center;
+	margin-top: 0.05rem;
+}
+#bag_main .guideList li p:nth-of-type(2) a{
+	color:  #939393;
+}
+#bag_main>p{
+	font-size: 0.15rem;
+	line-height: 0.15rem;
+	background: #fff;
+	padding: 0.2rem;
+	color: rgb(55,41,41);
+}
+#bag_main .icons{
+	width: 100%;
+	height: 1.1rem;
+	background: #fff;
+	display: flex;
+}
+#bag_main .icons li{
+	margin: 0.1rem -12% 0 0;
+}
+#bag_main .icons li:nth-of-type(2){
+	margin-left: -8%;
+}
+#bag_main .icons li img{
+	width: 34%;
+	display: block;
+}
+#bag_main .icons li a{
+	font-size: 0.1rem;
+	color: rgb(55,41,41);
+	display: block;
+}
+/*页脚*/
+#bag_footer{
+	background: #ecece5;
+	width: 100%;
+	height: 1.35rem;
+	padding: 0.1rem 0.13rem 0 0.13rem;
+	font-size: 0.15rem;
+	line-height: 0.3rem;
+}
+#bag_footer p:nth-of-type(odd) a{
+	color: blue;
+}
+#bag_footer p:nth-of-type(even) a{
+	color: #b4b4b4;
+}
+#bag_footer p:last-of-type{
+	color: #b4b4b4;
+}

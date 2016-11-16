@@ -1,0 +1,81 @@
+
+/*头部*/
+#post_header{
+	width: 100%;
+	height: 0.5rem;
+	background: #2bab79;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5rem;
+	color: #fff;
+	font-size: 0.2rem;
+}
+#post_header a{
+	color: #fff;
+	margin: 0 0.1rem;
+	font-size: 0.18rem;
+}
+/*主体*/
+.post_main{
+	margin-left: 0.1rem;
+	padding: 0.2rem 0.1rem;
+	border-bottom: solid 1px #ddd;
+	height: 0.6rem;
+	color: #999;
+	font-size: 0.18rem;
+}
+.post_main input{
+	width: 100%;
+	height: 0.23rem;
+	font-size: 0.18rem;
+	color: #444;
+	overflow: hidden;
+	border: none;
+	display: block;
+	background: #f5f5f5;
+}
+.post_main .des{
+	color: #4998cc;
+	vertical-align: middle;
+}
+.post_main img{
+	width: 3%;
+	margin: 0 0.2rem;
+}
+.post_main i{
+	display: inline-block;
+	width: 1px;
+	height: 0.2rem;
+	background: #ddd;
+	vertical-align: middle;
+	margin-right: 0.2rem;
+}
+.post_main .empty{
+	display: inline-block;
+	width: 3%;
+	height: 1px;
+	background: #aaa;
+	vertical-align: middle;
+	margin: 0 0.3rem;
+}
+/*页脚*/
+#post_footer{
+	clear: both;
+	width: 100%;
+	height: 0.4rem;
+	text-align: center;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+}
+#post_footer p:first-of-type{
+	color: #9ea3ab;
+}
+#post_footer span:first-of-type{
+	color: #9ea3ab;
+}
+#post_footer a span{
+	color: #444;
+}
+#post_footer span{
+	margin: 0 0.15rem;
+}

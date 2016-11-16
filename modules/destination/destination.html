@@ -1,0 +1,75 @@
+
+		<!--目的地头部-->
+		<header id="destination_header">
+			<div ng-click="commonNavShow()">
+				<span class="icon-drawer zwui-iconfont"></span>	
+			</div>
+			<p class="destination_header_logo"><img src="images/qiongyou_header1.png"/></p>
+		</header>
+		<!--目的地搜索-->
+		<div id="destination_input">
+			<input type="text" placeholder="搜索你想要去的国家或城市" ng-click="destination_inputClick()"/>
+			<span class="qui-icon _search"></span>
+		</div>
+		<!--定位-->
+		<div id="destination_dingwei">
+			<i></i><span>点击定位查看周边吃喝玩乐</span>
+		</div>
+		<!--nav导航-->
+		<nav id="destination_nav">
+			<ul>
+				<li class="noLeft checked" ng-click="hotClick()">热门</li>
+				<li ng-click="AsiaClick()">亚洲</li>
+				<li ng-click="EuropeClick()">欧洲</li>
+				<li ng-click="AfricaClick()">非洲</li>
+				<li class="noLeft" ng-click="NorthAmericaClick()">北美</li>
+				<li ng-click="SouthAmericaClick()">南美</li>
+				<li ng-click="OceaniaClick()">大洋洲</li>
+				<li>南极洲</li>
+			</ul>
+		</nav>
+		<!--热门国家和城市-->
+		<div id="destination_HotCity">
+			<h3>热门国家和城市</h3>
+			<div class="destination_HotCity_box">
+				<ul class="destination_HotCity_nav">
+					<li ng-repeat="x in data">
+						<img ng-src="{{x.img}}" alt="" />
+						<p>{{x.city}}</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="destination_other">
+			<h3>热门主题</h3>
+			<div class="destination_other_list_box">
+				<ul class="destination_other_list">
+					<li>自然人文</li>
+					<li>十一月去哪</li>
+					<li>枫叶季行</li>
+					<li>最爱小镇</li>
+					<li>条骚市场</li>
+					<li>魅力夜色</li>
+					<li>怀旧时光</li>
+					<li>海岛婚礼</li>
+					<li>魔幻世界</li>
+				</ul>
+			</div>
+		</div>
+		<footer id="destination_footer">
+			<p>2004-2015 © 穷游网™ qyer.com All rights reserved.</p>
+			<p>
+				<span>手机版</span>
+				<span>电脑版</span>
+				<span>APP</span>
+			</p>
+		</footer>
+		<div id="destination_mask" ng-show="desInputShow" style="height: {{desHh}}px;">
+			<div class="destination_mask_top">
+				<span ng-click="destination_inputClick()">
+					<i class="iconfont iconfont-back"></i>
+				</span>
+				<input type="text" placeholder="搜索" />
+				<a href="##">搜索</a>
+			</div>
+		</div>

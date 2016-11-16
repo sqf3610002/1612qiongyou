@@ -1,0 +1,39 @@
+<div class="mod-newTripCHotCity">
+	<div class="newTripCHCBox">
+		<h3><span class="newTripCName">中国</span>热门城市</h3>
+		<div class="newTripCHCList">
+			<div class="newTripCHCImg" ng-repeat="x in newTripCHCData.data">
+				<img data-src="{{x.countryimg}}" class="lazy-img" />
+				<p>{{x.countryname}}</p>
+				<div class="newTripOkImg">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newTripEmptyBox">
+		
+	</div>
+	<footer id="newTripCHCFooter">
+<!-- 		<div class="newTripCountryOk">
+			
+		</div> -->
+		<ul class="newTripCountryOk">
+			<li class="newTripCSelected">
+				<img src="images/newTripCImg1.jpg" />
+				<p class="newTCountryName">中国</p>
+			</li>
+			<li class="newTripCNoSelected">
+				<img src="images/newTripCImg2.jpg" />
+				<p class="newTCountryName">新加坡</p>
+			</li>
+			<li class="newTripCNoSelected">
+				<img src="images/newTripCImg3.jpg" />
+				<p class="newTCountryName">美国</p>
+			</li>
+		</ul>
+		<div class="newTripCHCOk" ui-sref="createTrip">
+			确定
+		</div>
+	</footer>
+</div>

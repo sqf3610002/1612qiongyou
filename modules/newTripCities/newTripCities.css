@@ -1,0 +1,66 @@
+@charset="utf-8";
+/*页面渐变色背景*/
+.mod-newTripCities{
+	width: 100%;
+	height: 7.36rem;
+	background: -webkit-linear-gradient(left top, #72ca64 , #23ab7b);
+	background: -o-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: -moz-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: linear-gradient(to bottom right, #72ca64 , #23ab7b);
+	line-height: 0.31rem;
+	color: #fff;
+	padding-top: 0.129rem;
+	font-size: 0.168rem;
+}
+.newTripCityBox{
+	width: 3.62rem;
+	margin: 0 auto;
+}
+#newTripCityInput{
+	width: 3.62rem;
+	height: 0.524rem;
+	line-height: 0.524rem;
+	background: transparent;
+	font-size: 0.168rem;
+	border: 0.01rem solid #fff;
+	padding-left: 0.1rem;
+}
+/*input标签placeholder改变颜色 兼容各浏览器*/
+/*WebKit browsers*/
+input::-webkit-input-placeholder{
+	color: #ddd!important;
+}
+/* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder {
+　　color: #ddd !important; 
+}
+/*Mozilla Firefox 19+ */
+input::-moz-placeholder {
+　　color: #ddd !important;  
+}
+/* Internet Explorer 10+ */
+input:-ms-input-placeholder {
+　　color: #ddd !important; 
+}
+.newTripCityList{
+	width: 100%;
+	background-color: #65c978;
+	border: 0.01rem solid #7ae0b4;
+}
+.newTripCityList li{
+	width: 100%;
+	height: 0.514rem;
+	line-height: 0.514rem;
+	border-bottom: 0.01rem solid #83d192;
+	padding-left: 0.1rem;
+}
+/*页面底部取消按钮*/
+#newTripCityfooter{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background: #198760;
+}

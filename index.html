@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html ng-app="QYW">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>穷游网</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<script src="lib/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<script src="lib/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-ui-router.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-css.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/loadimg.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/LCalendar.css"/>
+		<script src="js/LCalendar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container">
+        	<div ui-view></div>
+    	</div>
+    	<div id="common_nav" ng-controller="commonCtrl">
+    		<div class="common_nav_top">
+				<p class="common_nav_TX">
+					<img src="images/qiongyou_header2.png" alt="" />
+				</p>
+				<p class="common_nav_user">
+					yzliang123
+				</p>
+				<p class="common_nav_info">
+					<span class="common_nav_info_span"></span>
+				</p>
+				<p class="common_nav_input">
+					<span class="common_nav_input_span"></span>
+				</p>
+    		</div>
+    		<ul id="common_nav_main">
+    			<li ui-sref = "qiongyou">
+    				<span class="common_nav_main_li1"></span>
+    				<span class="common_nav_main_text">首页</span>
+    			</li>
+    			<li  ui-sref = "destination">
+    				<span class="common_nav_main_li2"></span>
+    				<span class="common_nav_main_text">目的地</span>
+    			</li>
+    			<li ui-sref = "trip">
+    				<span class="common_nav_main_li3"></span>
+    				<span class="common_nav_main_text">行程助手</span>
+    			</li>
+    			<li ui-sref = "bag">
+    				<span class="common_nav_main_li4"></span>
+    				<span class="common_nav_main_text">穷游锦囊</span>
+    			</li>
+    			<li ui-sref = "firstPage">
+    				<span class="common_nav_main_li5"></span>
+    				<span class="common_nav_main_text">最世界.自由行</span>
+    			</li>
+    			<li ui-sref = "ask">
+    				<span class="common_nav_main_li6"></span>
+    				<span class="common_nav_main_text">问答</span>
+    			</li>
+    			<li ui-sref = "strategy">
+    				<span class="common_nav_main_li7"></span>
+    				<span class="common_nav_main_text">论坛</span>
+    			</li>
+    			<li ui-sref = "jne">
+    				<span class="common_nav_main_li8"></span>
+    				<span class="common_nav_main_text">穷游出品</span>
+    			</li>
+    			<li >
+    				<span class="common_nav_main_li9"></span>
+    				<span class="common_nav_main_text">酒店</span>
+    			</li>
+    			<li ui-sref = "airTicket">
+    				<span class="common_nav_main_li10"></span>
+    				<span class="common_nav_main_text">机票</span>
+    			</li>
+    		</ul>
+    		<div id="common_nav_bottom">
+    			<p>
+    				<span class="common_nav_bottom1"></span>
+    				<span>写评论</span>
+    			</p>
+    			<p>
+    				<span class="common_nav_bottom2"></span>
+    				<span>提问题</span>
+    			</p>
+    			<p>
+    				<span class="common_nav_bottom3"></span>
+    				<span>退出登录</span>
+    			</p>
+    		</div>
+    	</div>
+    	<script src="app.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/qiongyou/qiongyou.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/destination/destination.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/trip/trip.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/strategy/strategy.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/ask/ask.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/firstPage/firstPage.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/play/play.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/bag/bag.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/jne/jne.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/with/with.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/personalInfo/personalInfo.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/post/post.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/free/free.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="modules/visa/visa.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/cityPlay/cityPlay.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/wifi/wifi.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/find/find.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/logIn/logIn.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/findCity/findCity.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/specialOffer/specialOffer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="modules/shuttle/shuttle.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src='modules/content1/content1.js'></script>
+        <script type="text/javascript" src='modules/dateMode/dateMode.js'></script>
+        <script type="text/javascript" src='modules/airTicket/airTicket.js'></script>
+        <script src="modules/allDestination/allDestination.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/screenHave/screenHave.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/sorting/sorting.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/newTripCHotCity/newTripCHotCity.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/newTripCities/newTripCities.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/newTripCountry/newTripCountry.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/createTrip/createTrip.js" type="text/javascript" charset="utf-8"></script>
+        <script src="modules/tripUserPage/tripUserPage.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

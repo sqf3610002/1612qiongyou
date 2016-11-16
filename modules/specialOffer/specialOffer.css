@@ -1,0 +1,56 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+ul,
+li{list-style:none;}
+a{text-decoration:none;color:black;}
+html{font-size:100px;}
+body{font-family:Helvetica;}
+body{background:#f5f5f5;font-size:0.14rem;}
+
+/*头部的绿条*/
+#specialOffer .name{height:0.4rem;width:100%;display:flex;background:linear-gradient(to right,#4ec872,#10c0a5)}
+#specialOffer .name p{color:#fff;width:60%;font-size:0.16rem;text-align:center;line-height:0.4rem;}
+#specialOffer .name_ico{color:#FFF;font-weight:bold;font-size:18px;width:20%;height:0.4rem;line-height:0.4rem;text-align:center;}
+#specialOffer .icon-back:before{content:"\e60d";}
+
+/*筛选*/
+#specialOffer .header{background:#fff;height:0.4rem;font-size:0.135rem;display:flex;box-shadow:0 0.01rem 0.015rem 0 rgba(0,0,0,.1);}
+#specialOffer .header div{text-align:center;line-height:0.4rem;}
+#specialOffer .destination{width:26%;}
+#specialOffer .filter{width:24%;}
+#specialOffer .sort{width:24%;border-left:0.01rem solid #ededed;}
+#specialOffer .icon-arrow-down:before{content:"\e636";display:inline-block;font-size:0.06rem;color:rgba(31,32,35,.8);margin-left:0.02rem;}
+#specialOffer .icon-rank:before{content:"\e638";font-size:12px;color:#40c895;margin:-0.02rem 0.05rem 0 0;}
+
+/*主体部分*/
+#specialOffer .main_ul{background:#fff;}
+#specialOffer .main_ul li{padding:0.15rem;display:flex;border-top:0.02rem solid #f5f5f5;font-size:0.13rem;position:relative;}
+#specialOffer .active{position:absolute;top:0.2rem;left:0.1rem;padding:0 5px;width:0.8rem;height:0.24rem;line-height:0.24rem;color:#fff;background:#ff7c6d}
+#specialOffer .pic img{width:1rem;height:0.75rem;}
+#specialOffer .pic{width:30%;height:0.75rem;margin-top:0.035rem;}
+#specialOffer .content{width:70%;}
+#specialOffer .content_p1 span:first-of-type{color:#40c895;padding-right:0.1rem;margin-right:0.06rem;border-right:0.015rem solid #e0e0e0;}
+#specialOffer .content_p1 span:nth-of-type(2){color:rgba(31,32,35,.6);}
+#specialOffer .icon-local2:before{content:"\e635";position:relative;top:0.01rem;color:#40c895;margin:0 0.05rem 0 0.05rem;}
+#specialOffer .content h3{color:#636363;font-size:0.13rem;line-height:0.19rem;margin:0.05rem 0;height:0.38rem;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;    /*2代表两行*/-webkit-line-clamp:2;}
+#specialOffer .content_p2 span:first-of-type{color:rgba(31,32,35,.4);}
+#specialOffer .content_p2 span:nth-of-type(2){float:right;color:rgba(31,32,35,.4);}
+#specialOffer .content_p2 em{color:#ff7467;font-size:0.2rem;}
+
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.zwui-iconfont {
+	font-family:zworld!important;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}

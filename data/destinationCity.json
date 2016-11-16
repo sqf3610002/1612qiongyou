@@ -1,0 +1,352 @@
+{
+    "hot": [
+        {
+            "img": "images/destination_HotCity_nav1.jpg",
+            "city": "中国"
+        },
+        {
+            "img": "images/destination_HotCity_nav2.jpg",
+            "city": "泰国"
+        },
+        {
+            "img": "images/destination_HotCity_nav3.jpg",
+            "city": "日本"
+        },
+        {
+            "img": "images/destination_HotCity_nav4.jpg",
+            "city": "法国"
+        },
+        {
+            "img": "images/destination_HotCity_nav5.jpg",
+            "city": "香港"
+        },
+        {
+            "img": "images/destination_HotCity_nav6.jpg",
+            "city": "曼谷"
+        },
+        {
+            "img": "images/destination_HotCity_nav7.jpg",
+            "city": "澳门"
+        },
+        {
+            "img": "images/destination_HotCity_nav8.jpg",
+            "city": "巴黎"
+        },
+        {
+            "img": "images/destination_HotCity_nav5.jpg",
+            "city": "香港"
+        },
+        {
+            "img": "images/destination_HotCity_nav6.jpg",
+            "city": "曼谷"
+        },
+        {
+            "img": "images/destination_HotCity_nav7.jpg",
+            "city": "澳门"
+        },
+        {
+            "img": "images/destination_HotCity_nav8.jpg",
+            "city": "巴黎"
+        }
+    ],
+    "Asia": [
+        {
+            "img": "images/destination_HotCity_nav1.jpg",
+            "city": "中国"
+        },
+        {
+            "img": "images/destination_HotCity_nav2.jpg",
+            "city": "泰国"
+        },
+        {
+            "img": "images/destination_HotCity_nav3.jpg",
+            "city": "日本"
+        },
+        {
+            "img": "images/destination_Asia_nav4.jpg",
+            "city": "韩国"
+        },
+        {
+            "img": "images/destination_HotCity_nav5.jpg",
+            "city": "香港"
+        },
+        {
+            "img": "images/destination_HotCity_nav6.jpg",
+            "city": "曼谷"
+        },
+        {
+            "img": "images/destination_HotCity_nav7.jpg",
+            "city": "澳门"
+        },
+        {
+            "img": "images/destination_Asia_nav8.jpg",
+            "city": "首尔"
+        },
+        {
+            "img": "images/destination_HotCity_nav5.jpg",
+            "city": "香港"
+        },
+        {
+            "img": "images/destination_HotCity_nav6.jpg",
+            "city": "曼谷"
+        },
+        {
+            "img": "images/destination_HotCity_nav7.jpg",
+            "city": "澳门"
+        },
+        {
+            "img": "images/destination_Asia_nav8.jpg",
+            "city": "首尔"
+        }
+    ],
+    "Europe": [
+        {
+            "img": "images/destination_HotCity_nav4.jpg",
+            "city": "法国"
+        },
+        {
+            "img": "images/destination_Europe_nav2.jpg",
+            "city": "意大利"
+        },
+        {
+            "img": "images/destination_Europe_nav3.jpg",
+            "city": "德国"
+        },
+        {
+            "img": "images/destination_Europe_nav4.jpg",
+            "city": "西班牙"
+        },
+        {
+            "img": "images/destination_HotCity_nav8.jpg",
+            "city": "巴黎"
+        },
+        {
+            "img": "images/destination_Europe_nav6.jpg",
+            "city": "罗马"
+        },
+        {
+            "img": "images/destination_Europe_nav7.jpg",
+            "city": "威尼斯"
+        },
+        {
+            "img": "images/destination_Europe_nav8.jpg",
+            "city": "佛罗伦萨"
+        },
+        {
+            "img": "images/destination_HotCity_nav8.jpg",
+            "city": "巴黎"
+        },
+        {
+            "img": "images/destination_Europe_nav6.jpg",
+            "city": "罗马"
+        },
+        {
+            "img": "images/destination_Europe_nav7.jpg",
+            "city": "威尼斯"
+        },
+        {
+            "img": "images/destination_Europe_nav8.jpg",
+            "city": "佛罗伦萨"
+        }
+    ],
+    "Africa": [
+        {
+            "img": "images/destination_Africa_nav1.jpg",
+            "city": "埃及"
+        },
+        {
+            "img": "images/destination_Africa_nav2.jpg",
+            "city": "南非"
+        },
+        {
+            "img": "images/destination_Africa_nav3.jpg",
+            "city": "肯尼亚"
+        },
+        {
+            "img": "images/destination_Africa_nav4.jpg",
+            "city": "毛里求斯"
+        },
+        {
+            "img": "images/destination_Africa_nav5.jpg",
+            "city": "开罗"
+        },
+        {
+            "img": "images/destination_Africa_nav6.jpg",
+            "city": "卢克索"
+        },
+        {
+            "img": "images/destination_Africa_nav7.jpg",
+            "city": "阿斯旺"
+        },
+        {
+            "img": "images/destination_Africa_nav8.jpg",
+            "city": "亚历山大港"
+        },
+        {
+            "img": "images/destination_Africa_nav5.jpg",
+            "city": "开罗"
+        },
+        {
+            "img": "images/destination_Africa_nav6.jpg",
+            "city": "卢克索"
+        },
+        {
+            "img": "images/destination_Africa_nav7.jpg",
+            "city": "阿斯旺"
+        },
+        {
+            "img": "images/destination_Africa_nav8.jpg",
+            "city": "亚历山大港"
+        }
+    ],
+    "NorthAmerica": [
+        {
+            "img": "images/destination_NorthAmerica_nav1.jpg",
+            "city": "美国"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav2.jpg",
+            "city": "加拿大"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav3.jpg",
+            "city": "墨西哥"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav4.jpg",
+            "city": "古巴"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav5.jpg",
+            "city": "洛杉矶"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav6.jpg",
+            "city": "纽约"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav7.jpg",
+            "city": "旧金山"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav8.jpg",
+            "city": "拉斯维加斯"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav5.jpg",
+            "city": "洛杉矶"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav6.jpg",
+            "city": "纽约"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav7.jpg",
+            "city": "旧金山"
+        },
+        {
+            "img": "images/destination_NorthAmerica_nav8.jpg",
+            "city": "拉斯维加斯"
+        }
+    ],
+    "SouthAmerica": [
+        {
+            "img": "images/destination_SouthAmerica_nav1.jpg",
+            "city": "巴西"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav2.jpg",
+            "city": "阿根廷"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav3.jpg",
+            "city": "秘鲁"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav4.jpg",
+            "city": "智力"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav5.jpg",
+            "city": "里约热内卢"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav6.jpg",
+            "city": "圣保罗"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav7.jpg",
+            "city": "布宜诺斯艾利斯"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav8.jpg",
+            "city": "利马"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav5.jpg",
+            "city": "里约热内卢"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav6.jpg",
+            "city": "圣保罗"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav7.jpg",
+            "city": "布宜诺斯艾利斯"
+        },
+        {
+            "img": "images/destination_SouthAmerica_nav8.jpg",
+            "city": "利马"
+        }
+    ],
+    "Oceania": [
+        {
+            "img": "images/destination_Oceania_nav1.jpg",
+            "city": "澳大利亚"
+        },
+        {
+            "img": "images/destination_Oceania_nav2.jpg",
+            "city": "新西兰"
+        },
+        {
+            "img": "images/destination_Oceania_nav3.jpg",
+            "city": "北马里亚纳群岛"
+        },
+        {
+            "img": "images/destination_Oceania_nav4.jpg",
+            "city": "斐济"
+        },
+        {
+            "img": "images/destination_Oceania_nav5.jpg",
+            "city": "悉尼"
+        },
+        {
+            "img": "images/destination_Oceania_nav6.jpg",
+            "city": "墨尔本"
+        },
+        {
+            "img": "images/destination_Oceania_nav7.jpg",
+            "city": "黄金海岸"
+        },
+        {
+            "img": "images/destination_Oceania_nav8.jpg",
+            "city": "布里斯班"
+        },
+        {
+            "img": "images/destination_Oceania_nav5.jpg",
+            "city": "悉尼"
+        },
+        {
+            "img": "images/destination_Oceania_nav6.jpg",
+            "city": "墨尔本"
+        },
+        {
+            "img": "images/destination_Oceania_nav7.jpg",
+            "city": "黄金海岸"
+        },
+        {
+            "img": "images/destination_Oceania_nav8.jpg",
+            "city": "布里斯班"
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+@font-face {
+	font-family: "wan_font";
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?v=1468205515452');
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?#iefix') format('embedded-opentype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.woff?v=1468205515452') format('woff'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.ttf?v=1468205515452') format('truetype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.svg#wan_font?v=1468205515452') format('svg');
+}
+
+.iconfont {
+	font-family: "wan_font" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.iconfont-search:before {
+    content: '\EA7B';
+}
+
+.iconfont-arrow-down:before {
+    content: '\EA42';
+}
+
+
+.iconfont-back:before {
+    content: '\EA6B';
+}
+.iconfont-arrow-down:before {
+    content: '\EA42';
+}
+.iconfont-date:before {
+    content: '\EA77';
+}
+.play header{
+	width: 4.14rem;
+	height: 0.44rem;
+	background: #0CBF79;
+	font-size: 0.20rem;
+	line-height: 0.44rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.05rem;
+}
+.play header>a>div{
+	color: #fff;
+}
+.play header>a:nth-child(2){
+	width: .77rem;
+}
+.play header>a>div>img{
+	width: 100%;
+}
+.play header>a>i{
+	font-size: 0.25rem;
+	color: #fff;
+}
+.play section{
+	display: flex;
+	font-size: .16rem;
+	justify-content: space-around;
+	padding: .14rem .12rem;
+	border-bottom: 1px solid #D7D7D7;
+	background: #fff;
+	color: #848484;
+}
+.play section div{
+	display: flex;
+	align-items:center;
+}
+.play section div:last-child i{
+	font-size: 0.2rem;
+}
+.table{
+	width: 100%;
+	margin-top: .2rem;
+	background: #fff;
+	padding: 0 .1rem;
+	margin-bottom: .2rem;
+}
+.table tbody tr>td:nth-of-type(2){
+	width: 75%;
+	font-size: .2rem;
+	color: #8dabbb;
+}
+.table td:first-child{
+	color: #9C9C9C;
+	font-size: .14rem;
+}
+.table td{
+	padding: .1rem;
+	border-bottom: 2px solid #F0F1F2;
+}
+.table tr:last-child td:last-child{
+	width: 100%;
+}
+.table .personNum{
+	display: flex;
+}
+.table div{
+	width: .15rem;
+	height: .2rem;
+}
+.table .personNum input{
+	border: none;
+	width: .3rem;
+	font-size: .2rem;
+}
+.table .personNum>span{
+	position: relative;
+	width: .2rem;
+	text-align: center;
+	margin: 0 .3rem;
+	color: black;
+}
+.table .personNum span select{
+	opacity: 0;
+	position:absolute;
+	left:0;
+	top:0;
+	width: .3rem;
+}
+.table img{
+	width: 100%;
+}
+.table .minus{
+	background: url(http://static.qyer.com/m/project/flight/images/new/minus.png) center no-repeat;
+	background-size: contain;
+}
+.table .plus{
+	background: url(http://static.qyer.com/m/project/flight/images/new/plus.png) center no-repeat;
+	background-size: contain;
+}
+.table .more{
+	color: #9EA3AB;
+	text-align: center;
+}
+.airTicket .button{
+	text-align: center;
+}
+.airTicket button{
+	width: 95%;
+	background: #2BAB79;
+	height: .35rem;
+	color: #fff;
+	border: none;
+	border-radius: .05rem;
+}
+.airTicket p{
+	text-align: center;
+	font-size: .14rem;
+	color: #9ea3ab;
+	line-height: .2rem;
+}
+.airTicket p>img{
+	width: 30%;
+}
+.airTicket p span{
+	padding: .1rem;
+}
+.airTicket .data-support{
+	margin:.5rem 0 .3rem 0;
+}
+#start,#end{
+	color: #8dabbb;
+	font-size: .16rem;
+	height: .3rem;
+	border: none;
+}
+.bg-search{
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(246,246,246,.95);
+	width:100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.bg-search .search{
+	display: flex;
+	border-bottom: 1px solid #F9F9dd;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+}
+.bg-search .search a{
+	width: .44rem;
+	height: .44rem;
+	line-height: .44rem;
+	border-right: 1px solid #E3E5E7;
+	text-align: center;
+}
+.iconfont-back{
+	font-size: .3rem;
+	color: #96B1C0;
+}
+.bg-search .search input{
+	width: 100%;
+	border: none;
+	font-size: .2rem;
+	padding-left: .1rem;
+}
+.cityList{
+	margin-top: .8rem;
+	width:3.8rem;
+	background: #fff;
+
+}
+.cityList ul{
+	text-align: center;
+}
+.cityList ul li{
+	height: .44rem;
+	border-bottom: 1px solid #ECEEEF;
+	line-height: .44rem;
+}
+#date1,#date2{
+	width: 2.19rem;
+	height: 0.36rem;
+	padding-top: 0.1rem;
+	border: none;
+	color: #8dabbb;
+	line-height: 0.26rem;
+	font-size: 0.18rem;
+	display: block;
+}

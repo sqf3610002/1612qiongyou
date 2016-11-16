@@ -1,0 +1,145 @@
+@charset="utf-8";
+/*全局样式*/
+.hide{
+	display: none;
+}
+/*文本溢出显示省略号*/
+.ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.mod-strategy{
+	color: #444;
+	font-size: 0.16rem;
+}
+.mod-strategy a{
+	color: #494949;
+}
+/*头部样式*/
+#strategy-header{
+	width: 100%;
+	height: 0.44rem;
+	position: fixed;
+	top: 0;
+	background: #2bab79 url('http://common1.qyerstatic.com/mbbs/basic/images/topbar-logo.png') no-repeat center center;
+	background-size: 0.77rem 0.44rem;
+}
+.strategy-header-left{
+	width: 0.44rem;
+	height: 0.44rem;
+	float: left;
+}
+/*主体*/
+/*热门话题/热帖*/
+#strategy-main{
+	padding-top: 0.44rem;
+}
+.strategy-hot{
+	width: 100%;
+	height: 0.44rem;
+}
+.strategy-hot li{
+	height: 0.44rem;
+	line-height: 0.44rem;
+	text-align: center;
+	float: left;
+	margin: 0 0.1rem;
+}
+.strategy-hot a{
+	color: #444;
+}
+.strategy-hot-clicked{
+	color: #2bab79!important;
+}
+/*热门详情*/
+.strategy-hot-detail{
+	padding: 0 8px;
+}
+.strategy-hot-detail li{
+	height: 0.44rem;
+	line-height: 0.44rem;
+	border-top: 0.01rem solid #ebecee;
+	/*文字溢出显示省略号*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.strategy-hot-detail a{
+	font-size: 0.16rem;
+}
+/*穷游小组*/
+.strategy-groups h3{
+	height: 0.46rem;
+	line-height: 0.46rem;
+	font-size: 0.18rem;
+	font-weight: bold;
+	padding-left: 0.1rem;
+	border-top: 0.01rem solid #e6e8ea;
+	border-bottom: 0.01rem solid #e6e8ea;
+	margin: 0.02rem 0;
+}
+.strategy-groups img{
+	width: 0.4rem;
+	height: 0.4rem;
+	vertical-align: middle;
+}
+.strategy-group{
+	overflow: hidden;
+	padding: 0 0.1rem;
+}
+.strategy-group a{
+	display: block;
+	float: left;
+	padding-left: 0.15rem;
+	width: 1.92rem;
+	height: 0.69rem;
+	line-height: 0.69rem;
+	border-bottom: 0.01rem solid #e6e8ea;
+	font-size: 0.12rem;
+}
+.strategy-group a:nth-of-type(odd){
+	border-right: 0.01rem solid #e6e8ea;
+}
+/*页脚样式*/
+#strategy-footer{
+	width: 100%;
+	margin-top: 0.1rem;
+	margin-bottom: 0.2rem;
+}
+#strategy-footer p{
+	width: 100%;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.1rem;
+	text-align: center;
+}
+#strategy-footer a{
+	margin: 0.15rem;
+}
+.strategy-footer-copy{
+	color: #9ea3ab;
+}
+.strategy-footer-select{
+	color: #9ea3ab!important;
+}
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.strategy_three{
+	font-family:zworld!important;
+	display: inline-block;
+    width: 0.44rem;
+    height: 0.44rem;
+    font-size: 0.18rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: white;
+}
+.strategy_three:before {
+    content: "\e602";
+}
