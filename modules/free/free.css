@@ -1,0 +1,63 @@
+
+/*头部的绿条*/
+#doorTicket .name{height:0.4rem;width:100%;display:flex;background:linear-gradient(to right,#4ec872,#10c0a5)}
+#doorTicket .name p{color:#fff;width:60%;font-size:0.16rem;text-align:center;line-height:0.4rem;}
+#doorTicket .name_ico{color:#FFF;font-weight:bold;font-size:18px;width:20%;height:0.4rem;line-height:0.4rem;text-align:center;}
+#doorTicket .icon-back:before{content:"\e60d";}
+
+/*筛选*/
+#doorTicket .header{background:#fff;height:0.4rem;font-size:0.135rem;display:flex;box-shadow:0 0.01rem 0.015rem 0 rgba(0,0,0,.1);}
+#doorTicket .header div{text-align:center;line-height:0.4rem;}
+#doorTicket .destination{width:38%;}
+#doorTicket .filter{width:38%;}
+#doorTicket .sort{width:24%;border-left:0.01rem solid #ededed;}
+#doorTicket .icon-arrow-down:before{content:"\e636";display:inline-block;font-size:0.06rem;color:rgba(31,32,35,.8);margin-left:0.02rem;}
+#doorTicket .icon-rank:before{content:"\e638";font-size:12px;color:#40c895;margin:-0.02rem 0.05rem 0 0;}
+
+/*地点*/
+#doorTicket .somePlace{width:100%;height:0.485rem;overflow-x:scroll;overflow-y:hidden;}
+#doorTicket .place{width:15rem;color:red;}
+#doorTicket .place li{float:left;margin-left:0.15rem;line-height:0.485rem;font-size:0.12rem;display:list-item;}
+#doorTicket .place li a{padding:0.04rem 0.14rem;border:1px solid #fff;border-radius:100px;border:0.015rem #fff solid;background:#fff;}
+#doorTicket .color{border-color:#00b081!important;color:#00b081;}
+
+/*主体部分*/
+#doorTicket .main_ul{background:#fff;}
+#doorTicket .main_ul li{padding:0.15rem;display:flex;border-bottom:0.02rem solid #f5f5f5;font-size:0.13rem;position:relative;}
+#doorTicket .active{position:absolute;top:0.2rem;left:0.1rem;padding:0 5px;width:0.8rem;height:0.24rem;line-height:0.24rem;color:#fff;background:#ff7c6d}
+#doorTicket .pic img{width:1rem;height:0.75rem;}
+#doorTicket .pic{width:30%;height:0.75rem;margin-top:0.035rem;}
+#doorTicket .content{width:70%;}
+#doorTicket .content_p1 span:first-of-type{color:#40c895;padding-right:0.1rem;margin-right:0.06rem;border-right:0.015rem solid #e0e0e0;}
+#doorTicket .content_p1 span:nth-of-type(2){color:rgba(31,32,35,.6);}
+#doorTicket .icon-local2:before{content:"\e635";position:relative;top:0.01rem;color:#40c895;margin:0 0.05rem 0 0.05rem;}
+#doorTicket .content h3{color:#636363;font-size:0.13rem;line-height:0.19rem;margin:0.05rem 0;height:0.38rem;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;    /*2代表两行*/-webkit-line-clamp:2;}
+#doorTicket .content_p2 span:first-of-type{color:rgba(31,32,35,.4);}
+#doorTicket .content_p2 span:nth-of-type(2){float:right;color:rgba(31,32,35,.4);}
+#doorTicket .content_p2 em{color:#ff7467;font-size:0.2rem;}
+
+
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.zwui-iconfont {
+	font-family:zworld!important;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+#allDestinationBox{
+	position: absolute;
+	top: 0.8rem;
+	left: 0;
+	width: 100%;
+}

@@ -1,0 +1,202 @@
+@charset="utf-8";
+/*全局样式*/
+.mod-trip{
+	font-size: 0.176rem;
+	color: #585858;
+}
+.ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*头部样式*/
+#trip-header{
+	width: 100%;
+	height: 0.47rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+	position: relative;
+	text-align: center;
+	line-height: 0.47rem;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	z-index: 1;
+}
+.trip-header-left{
+	width: 0.46rem;
+	height: 0.46rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.trip-list-ul{
+	width: 100%;
+	height: 0.59rem;
+	text-align: center;
+	display: flex;
+	-webkit-display: flex;
+	background: #fff;
+	position: fixed;
+	z-index: 2;
+	top: 0.47rem;
+}
+.trip-list-ul li{
+	flex: 1;
+	line-height: 0.59rem;
+}
+.trip-list-ul span{
+	display: inline-block;
+	height: 0.59rem;
+}
+/*点击后样式*/
+.trip-list-clicked{
+	font-weight: 700;
+	color: #41C074;
+	border-bottom: 0.02rem solid #41C074;
+}
+/*主体样式*/
+#trip-main{
+	padding-top: 1.06rem;
+}
+.trip-hot-detail{
+	border-top: 0.1rem solid #eee;
+}
+.hot-detail-box{
+	/*width: 4.14rem;*/
+	width: 100%;
+	height: 2.235rem;
+	background: url('../../images/trip-hot-img1.jpg') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.trip-user{
+	height: 0.294rem;
+	line-height: 0.294rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 0.1rem;
+	color: #fff;
+	font-weight: 700;
+	font-size: 0.1rem;
+}
+.trip-user img{
+	width: 0.294rem;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.hot-detail-words{
+	width: 100%;
+	height: 0.647rem;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	color: #fff;
+	background: rgba(0,0,0,0.6);
+}
+.trip-hot-day{
+	font-size: 0.494rem;
+	padding-left: 0.1rem;
+}
+.trip-hot-dayWord{
+	font-size: 0.13rem;
+	font-weight: 700;
+}
+.hot-detail-words-right{
+	margin-left: 0.1rem;
+	padding-left: 0.1rem;
+}
+.hot-detail-words-p1{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.15rem;
+}
+.hot-detail-words-p2{
+	font-size: 0.18rem;
+	height: 0.3469rem;
+	line-height: 0.3469rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.trip-hot-route{
+	width: 100%;
+	height: 0.46rem;
+	padding: 0.094rem 0.17656rem;
+	padding-top: 0.03rem;
+	color: #585858;
+    overflow: hidden;
+    font-size: 0.15rem;
+    line-height: 0.23rem;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    background: white;
+}
+#trip-load-more{
+	width: 100%;
+	height: 0.51rem;
+	line-height: 0.51rem;
+	border-top: 0.1rem solid #eee;
+	text-align: center;
+}
+#trip-load-more span{
+	display: inline-block;
+}
+.trip-empty-box{
+	width: 100%;
+	height: 0.58rem;
+	background: transparent;
+}
+/*底部样式*/
+#trip-footer{
+	width: 100%;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	text-align: center;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+}
+.trip-footer-left{
+	width: 1.06rem;
+	/*height: 0.58rem;*/
+	background: #e7fff0;
+	color: #41c074;
+}
+.trip-footer-right{
+	width: 100%;
+	/*height: 0.58rem;*/
+	background: #41C074;
+	color: #fff;
+}
+.trip-header-left>span{
+	display: inline-block;
+	width: 0.44rem;
+	height: 0.44rem;
+	font-size: 0.18rem;
+	line-height: 0.44rem;
+	text-align: center;
+	color: #41C074;
+}
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.zwui-iconfont {
+	font-family:zworld!important;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.icon-drawer:before {
+    content: "\e602";
+}

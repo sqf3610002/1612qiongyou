@@ -1,0 +1,439 @@
+@charset "utf-8";
+/*头部*/
+#info_header{
+	width: 4.14rem;
+	height: 0.44rem;
+	background: #2bab79;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.44rem;
+}
+#info_header .qui-icon_menu:before{
+	content: "\f921";
+	color: #fff;
+	font-size: 0.24rem;
+	margin: 0.1rem;
+	display: block;
+}
+#info_header img{
+	width: 19%;
+}
+#info_header .qui-icon_msg:before{
+	color: #fff;
+	margin: 0.08rem 0.1rem;
+	content: "\f922";
+	display: block;
+	font-size: 0.27rem;
+}
+/*广告栏*/
+#info_banner{
+	width: 100%;
+	height: 1.56rem;
+	position: relative;
+	overflow: hidden;
+}
+#info_banner:after{
+	content: ".";
+    font-size: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 31px;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.8));
+}
+#info_banner>img{
+	width: 100%;
+	height: 100%;
+}
+#info_banner>p{
+	width: 100%;
+	height: 0.64rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0.56rem;
+}
+#info_banner>p>img{
+	width: 15.5%;
+	height: 100%;
+	border-radius: 50%;
+}
+#info_banner .user{
+	position: absolute;
+	width: 100%;
+	bottom: 0.2rem;
+	left: 0;
+	color: #fff;
+	text-align: center;
+}
+#info_banner .user .name{
+	font-size: 0.16rem;
+	font-weight: normal;
+}
+#info_banner .user i{
+	display: inline-block;
+	width: 1px;
+	height: 0.19rem;
+	line-height: 0.19rem;
+	background: #fff;
+	margin: 0.1rem 0.04rem -0.04rem 0.06rem;
+}
+#info_banner .user .quit{
+	font-size: 0.12rem;
+	font-weight: normal;
+}
+/*主体*/
+#info_main{
+	padding: 0.1rem 0 0.01rem 0;
+	margin-bottom: 0.08rem;
+	background: #f5f5f5;
+}
+#info_main li{
+	padding-left: 0.1rem;
+	font-size: 0.16rem;
+	background: #fff;
+	width: 100%;
+	height: 0.54rem;
+	line-height: 0.54rem;
+	color: #444;
+	border-bottom: solid 1px #eee;
+}
+#info_main .image{
+	display: inline-block;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: url(http://static.qyer.com/m/project/ucenter/images/icons-ucenter.png);
+	background-size: 0.24rem;
+	vertical-align: middle;
+	margin-right: 0.1rem;
+}
+#info_main .gt:after{
+	display: inline-block;
+	content: ".";
+    font-size: 0;
+    float: right;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #c8c8c8;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0.2rem 0.1rem;
+}
+#info_main .question{
+	background: 0 -7.74rem url(http://static.qyer.com/m/project/ucenter/images/icons-ucenter.png);
+	background-size: 0.24rem;
+}
+#info_main .plan{
+	background: 0 -4.69rem url(http://static.qyer.com/m/project/ucenter/images/icons-ucenter.png);
+	background-size: 0.24rem;
+}
+#info_main .tip{
+	background: 0 -1.63rem url(http://static.qyer.com/m/project/ucenter/images/icons-ucenter.png);
+	background-size: 0.24rem;
+}
+#info_main .cheap{
+	background: 0 0.24rem url(http://static.qyer.com/m/project/ucenter/images/icons-ucenter.png);
+	background-size: 0.24rem;
+}
+#info_main .money{
+	background: url(http://static.qyer.com/m/project/ucenter/images/fanshop.png);
+	background-size: 0.24rem;
+}
+#info_main .manage{
+	background: url(http://static.qyer.com/m/project/ucenter/images/manage.png);
+	background-size: 0.24rem;
+}
+#info_main ul:nth-of-type(2){
+	margin-bottom: 0.1rem;
+}
+#info_main ul:nth-of-type(3){
+	margin-bottom: 0.1rem;
+}
+/*页脚*/
+#info_footer{
+	clear: both;
+	width: 100%;
+	height: 0.4rem;
+	margin: 0.2rem 0;
+	text-align: center;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+}
+#info_footer p:first-of-type{
+	color: #9ea3ab;
+}
+#info_footer span:first-of-type{
+	color: #9ea3ab;
+}
+#info_footer a span{
+	color: #444;
+}
+#info_footer span{
+	margin: 0 0.15rem;
+}
+
+
+
+/*小图标样式*/
+@font-face {
+	font-family:'Icons';
+	src:url('http://static.qyer.com/m/basic/font/qyer-icons.eot');
+	src:url('http://static.qyer.com/m/basic/font/qyer-icons.eot?#iefix') format('embedded-opentype'), url('http://static.qyer.com/m/basic/font/qyer-icons.woff') format('woff'), url('http://static.qyer.com/m/basic/font/qyer-icons.ttf') format('truetype'), url('http://static.qyer.com/m/basic/font/qyer-icons.svg#qyer-icons') format('svg')
+}
+.qui-icon {
+	display:inline-block;
+	height:1em;
+	font-family:'Icons' !important;
+	font-style:normal;
+	line-height:1;
+	font-weight:normal;
+	text-decoration:inherit;
+	text-align:center;
+	speak:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	font-smoothing:antialiased
+}
+.qui-icon._qyerLogo:before {
+	content:"\f900"
+}
+.qui-icon._poiStrong:before {
+	content:"\f901"
+}
+.qui-icon._post:before {
+	content:"\f902"
+}
+.qui-icon._album:before {
+	content:"\f903"
+}
+.qui-icon._plan:before {
+	content:"\f904"
+}
+.qui-icon._ask:before,.qui-icon._question.fill:before {
+	content:"\f905"
+}
+.qui-icon._bbs:before {
+	content:"\f906"
+}
+.qui-icon._lm:before {
+	content:"\f907"
+}
+.qui-icon._hotel:before {
+	content:"\f908"
+}
+.qui-icon._flight:before {
+	content:"\f909"
+}
+.qui-icon._insurance:before {
+	content:"\f90a"
+}
+.qui-icon._visa:before {
+	content:"\f90b"
+}
+.qui-icon._traffic:before {
+	content:"\f90c"
+}
+.qui-icon._guide:before {
+	content:"\f90d"
+}
+.qui-icon._poi:before {
+	content:"\f90e"
+}
+.qui-icon._view:before {
+	content:"\f90f"
+}
+.qui-icon._exp:before {
+	content:"\f910"
+}
+.qui-icon._food:before {
+	content:"\f911"
+}
+.qui-icon._shopping:before {
+	content:"\f912"
+}
+.qui-icon._qlab:before {
+	content:"\f913"
+}
+.qui-icon._home:before {
+	content:"\f920"
+}
+.qui-icon._menu:before {
+	content:"\f921"
+}
+.qui-icon._msg:before {
+	content:"\f922"
+}
+.qui-icon._filter:before {
+	content:"\f923"
+}
+.qui-icon._list:before {
+	content:"\f924"
+}
+.qui-icon._listPOI:before {
+	content:"\f925"
+}
+.qui-icon._map:before {
+	content:"\f926"
+}
+.qui-icon._search:before {
+	content:"\f927"
+}
+.qui-icon._focus:before {
+	content:"\f928"
+}
+.qui-icon._date:before {
+	content:"\f929"
+}
+.qui-icon._write:before {
+	content:"\f92a"
+}
+.qui-icon._photo:before {
+	content:"\f92b"
+}
+.qui-icon._addToPlan:before {
+	content:"\f92c"
+}
+.qui-icon._question:before {
+	content:"\f92d"
+}
+.qui-icon._reply:before {
+	content:"\f92f"
+}
+.qui-icon._reply._fill:before {
+	content:"\f92e"
+}
+.qui-icon._reply_line:before {
+	content:"\f931"
+}
+.qui-icon._reply_line._fill:before {
+	content:"\f930"
+}
+.qui-icon._heart:before {
+	content:"\f933"
+}
+.qui-icon._heart._fill:before {
+	content:"\f932"
+}
+.qui-icon._star:before {
+	content:"\f935"
+}
+.qui-icon._star._fill:before {
+	content:"\f934"
+}
+.qui-icon._flag:before {
+	content:"\f937"
+}
+.qui-icon._flag._fill:before {
+	content:"\f936"
+}
+.qui-icon._thumb:before {
+	content:"\f939"
+}
+.qui-icon._thumb._fill:before {
+	content:"\f938"
+}
+.qui-icon._share:before {
+	content:"\f93b"
+}
+.qui-icon._share._fill:before {
+	content:"\f93a"
+}
+.qui-icon._exit:before {
+	content:"\f93c"
+}
+.qui-icon._back:before {
+	content:"\f93d"
+}
+.qui-icon._close:before {
+	content:"\f93e"
+}
+.qui-icon._plus:before {
+	content:"\f93f"
+}
+.qui-icon._minus:before {
+	content:"\f940"
+}
+.qui-icon._up:before {
+	content:"\f950"
+}
+.qui-icon._right:before {
+	content:"\f951"
+}
+.qui-icon._down:before {
+	content:"\f952"
+}
+.qui-icon._left:before {
+	content:"\f953"
+}
+.qui-icon._triUp:before {
+	content:"\f954"
+}
+.qui-icon._triRight:before {
+	content:"\f955"
+}
+.qui-icon._triDown:before {
+	content:"\f956"
+}
+.qui-icon._triLeft:before {
+	content:"\f957"
+}
+.qui-icon._success:before {
+	content:"\f960"
+}
+.qui-icon._alert:before {
+	content:"\f961"
+}
+.qui-icon._error:before {
+	content:"\f962"
+}
+.qui-icon._info:before {
+	content:"\f963"
+}
+.qui-icon._introArrow:before {
+	content:"\f970"
+}
+.qui-icon._introBook:before {
+	content:"\f971"
+}
+.qui-icon._address:before {
+	content:"\f972"
+}
+.qui-icon._direction:before {
+	content:"\f973"
+}
+.qui-icon._tel:before {
+	content:"\f974"
+}
+.qui-icon._ticket:before {
+	content:"\f975"
+}
+.qui-icon._link:before {
+	content:"\f976"
+}
+.qui-icon._tag:before {
+	content:"\f977"
+}
+.qui-icon._cellphone:before {
+	content:"\f978"
+}
+.qui-icon._time:before {
+	content:"\f979"
+}
+.qui-icon._timeout:before {
+	content:"\f97a"
+}
+.qui-icon._tips:before {
+	content:"\f97b"
+}
+.qui-icon._classification:before {
+	content:"\f97c"
+}
+.qui-icon._related:before {
+	content:"\f97d"
+}

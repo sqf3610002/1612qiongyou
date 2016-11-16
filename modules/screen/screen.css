@@ -1,0 +1,29 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+ul,
+li{list-style:none;}
+a{text-decoration:none;color:black;}
+html{font-size:100px;}
+body{font-family:Helvetica;}
+body{font-size:0.14rem;}
+
+/*头部的绿条*/
+#screen .name{height:0.4rem;width:100%;display:flex;background:linear-gradient(to right,#4ec872,#10c0a5)}
+#screen .name p{color:#fff;width:60%;font-size:0.16rem;text-align:center;line-height:0.4rem;}
+#screen .name_ico{color:#FFF;font-weight:bold;font-size:18px;width:20%;height:0.4rem;line-height:0.4rem;text-align:center;}
+#screen .icon-back:before{content:"\e60d";}
+
+/*筛选*/
+#screen .header{background:#fff;height:0.4rem;font-size:0.135rem;display:flex;box-shadow:0 0.01rem 0.015rem 0 rgba(0,0,0,.1);}
+#screen .header div{text-align:center;line-height:0.4rem;}
+#screen .destination{width:38%;}
+#screen .filter{width:38%;color:#40c895;}
+#screen .sort{width:24%;border-left:0.01rem solid #ededed;}
+#screen .icon-arrow-down:before{content:"\e636";display:inline-block;font-size:0.06rem;color:rgba(31,32,35,.8);margin-left:0.02rem;}
+#screen .icon-rank:before{content:"\e638";font-size:12px;color:#40c895;margin:-0.02rem 0.05rem 0 0;font-size: 0.15rem;}
+#screen .filter span:before{color:#40c895;transform:rotate(180deg);}
+/*主体*/
+#screen .pic{margin: auto;border-radius: 50%;height: 1.2rem;width: 1.2rem; background: no-repeat center;background-color: #eee;background-size: 50% 50%;background-image: url(http://common1.qyerstatic.com/zworld/m/project/search/images/filter-none.png);}
+#screen .main{padding:2rem 0 0 0;}
+#screen .nofilter{margin-top: 0.3rem; text-align: center;color: rgba(31,32,35,.4);font-size: 0.135rem;}
+@font-face{font-family:zworld;src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');font-weight:400;font-style:normal}
+.zwui-iconfont{font-family:zworld!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}

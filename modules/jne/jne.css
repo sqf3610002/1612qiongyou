@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+/*头部*/
+#jne_header{
+	width: 4.14rem;
+	height: 0.44rem;
+	background: #2bab79;
+	display: flex;
+}
+#jne_header img{
+	display: block;
+	width: 20%;
+}
+#jne_header img:last-of-type{
+	margin-left: 22%;
+}
+/*轮播图*/
+.swiper-container{
+	width: 4.14rem;
+	height: 2rem;
+}
+.swiper-slide>img{
+	width: 100%;
+	height: 100%;
+}
+/*入口*/
+#jne_entrance{
+	width: 100%;
+	height: 0.6rem;
+	margin: 0.1rem 2%;
+}
+#jne_entrance ul{
+	display: flex;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.15rem;
+}
+#jne_entrance li a{
+	color: #fff;
+}
+#jne_entrance li:first-of-type{
+	width: 48.8%;
+	background: #fd7b48;
+	text-align: center;
+}
+#jne_entrance li:last-of-type{
+	width: 48.8%;
+	background: #42cc7f;
+	text-align: center;
+}
+#jne_entrance .taobao{
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: url(http://static.qyer.com/m/project/qlab/images/on_icon.png);
+	background-size: 100%;
+	vertical-align: middle;
+}
+#jne_entrance .microShop{
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.4rem;
+	background: 0 2.8rem url(http://static.qyer.com/m/project/qlab/images/on_icon.png);
+	background-size: 100%;
+	vertical-align: middle;
+}
+/*标题*/
+.jne_title{
+	width: 100%;
+	height: 0.44rem;
+	padding: 0.1rem;
+	display: flex;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+}
+.jne_title span{
+	font-size: 0.09rem;
+	color: #959595;
+	margin: 0.08rem 0 0 0.05rem;
+	line-height: 0.14rem;
+}
+/*商品列表*/
+.jne_list{
+	width: 100%;
+	height: 5.385rem;
+	padding-left: 0.1rem;
+}
+.jne_list li{
+	width: 47.4%;
+	float: left;
+	margin: 0 0.1rem 0.1rem 0;
+}
+.jne_list li img{
+	width: 100%;
+}
+.jne_list li .special{
+	margin-top: -0.24rem;
+}
+#jne_hot{
+	height: 3.627rem;
+}
+.jne_allGoods{
+	clear: both;
+	width: 98%;
+	height: 0.3rem;
+	background: #fff;
+	text-align: center;
+}
+.jne_allGoods img{
+	vertical-align: middle;
+}
+.jne_allGoods span{
+	line-height: 0.3rem;
+	color: #ccc;
+	font-size: 0.14rem;
+
+}
+/*标题*/
+.jneTitle{
+	width: 100%;
+	height: 0.44rem;
+	margin-top: 0.1rem;
+	padding: 0.1rem;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+	color: #444;
+}
+/*商品列表*/
+.jneList{
+	width: 100%;
+	height: 2.1rem;
+	padding: 0.1rem;
+}
+.jneList img{
+	width: 100%;
+}
+#jneStar{
+	width: 100%;
+	height: 6.2rem;
+}
+#jneStar img{
+	margin-top: 0.1rem;
+}
+/*页脚*/
+#jne_footer{
+	clear: both;
+	width: 100%;
+	height: 0.4rem;
+	margin: 0.2rem 0;
+	text-align: center;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+}
+#jne_footer p:first-of-type{
+	color: #9ea3ab;
+}
+#jne_footer span:first-of-type{
+	color: #9ea3ab;
+}
+#jne_footer a span{
+	color: #444;
+}
+#jne_footer span{
+	margin: 0 0.15rem;
+}
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.jne_three{
+	font-family:zworld!important;
+	display: inline-block;
+    width: 0.44rem;
+    height: 0.44rem;
+    font-size: 0.18rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: white;
+}
+.jne_three:before {
+    content: "\e602";
+}

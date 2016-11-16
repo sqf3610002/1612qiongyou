@@ -1,0 +1,648 @@
+{
+    "hot": [
+        {
+            "img": "images/hot_bag1.jpg",
+            "city": "巴西",
+            "country": "巴西"
+        },
+        {
+            "img": "images/hot_bag2.jpg",
+            "city": "纳米比亚",
+            "country": "纳米比亚"
+        },
+        {
+            "img": "images/hot_bag3.jpg",
+            "city": "耶路撒冷",
+            "country": "以色列"
+        },
+        {
+            "img": "images/hot_bag4.jpg",
+            "city": "曼谷周边",
+            "country": "泰国"
+        },
+        {
+            "img": "images/hot_bag5.jpg",
+            "city": "雅典",
+            "country": "希腊"
+        },
+        {
+            "img": "images/hot_bag6.jpg",
+            "city": "斯里兰卡",
+            "country": "斯里兰卡"
+        }
+    ],
+    "Asia": [
+        {
+            "img": "images/Asia_bag1.jpg",
+            "city": "泰国美食",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag2.jpg",
+            "city": "普吉岛",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag2.jpg",
+            "city": "泰国北部",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag4.jpg",
+            "city": "甲米与兰塔岛",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag5.jpg",
+            "city": "苏梅岛与涛岛",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag6.jpg",
+            "city": "清迈",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag7.jpg",
+            "city": "清迈咖啡馆",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag8.jpg",
+            "city": "曼谷",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag4.jpg",
+            "city": "甲米与兰塔岛",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag5.jpg",
+            "city": "苏梅岛与涛岛",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag6.jpg",
+            "city": "清迈",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag7.jpg",
+            "city": "清迈咖啡馆",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag8.jpg",
+            "city": "曼谷",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag9.jpg",
+            "city": "曼谷周边",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag6.jpg",
+            "city": "清迈",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag7.jpg",
+            "city": "清迈咖啡馆",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag8.jpg",
+            "city": "曼谷",
+            "country": "泰国"
+        },
+        {
+            "img": "images/Asia_bag9.jpg",
+            "city": "曼谷周边",
+            "country": "泰国"
+        }
+    ],
+    "Europe": [
+        {
+            "img": "images/Europe_bag1.jpg",
+            "city": "巴黎",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag2.jpg",
+            "city": "诺曼底",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag3.jpg",
+            "city": "慕尼黑英国古堡与庄园",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag4.jpg",
+            "city": "伦敦博物馆",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag5.jpg",
+            "city": "伦敦购物",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag6.jpg",
+            "city": "意大利国家概览",
+            "country": "意大利"
+        },
+        {
+            "img": "images/Europe_bag7.jpg",
+            "city": "德国国家橄榄",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag8.jpg",
+            "city": "德国足球",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag9.jpg",
+            "city": "伦敦周边",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag1.jpg",
+            "city": "巴黎",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag2.jpg",
+            "city": "诺曼底",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag3.jpg",
+            "city": "慕尼黑英国古堡与庄园",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag4.jpg",
+            "city": "伦敦博物馆",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag5.jpg",
+            "city": "伦敦购物",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag6.jpg",
+            "city": "意大利国家概览",
+            "country": "意大利"
+        },
+        {
+            "img": "images/Europe_bag7.jpg",
+            "city": "德国国家橄榄",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag8.jpg",
+            "city": "德国足球",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag9.jpg",
+            "city": "伦敦周边",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag1.jpg",
+            "city": "巴黎",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag2.jpg",
+            "city": "诺曼底",
+            "country": "法国"
+        },
+        {
+            "img": "images/Europe_bag3.jpg",
+            "city": "慕尼黑英国古堡与庄园",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag4.jpg",
+            "city": "伦敦博物馆",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag5.jpg",
+            "city": "伦敦购物",
+            "country": "英国"
+        },
+        {
+            "img": "images/Europe_bag6.jpg",
+            "city": "意大利国家概览",
+            "country": "意大利"
+        },
+        {
+            "img": "images/Europe_bag7.jpg",
+            "city": "德国国家橄榄",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag8.jpg",
+            "city": "德国足球",
+            "country": "德国"
+        },
+        {
+            "img": "images/Europe_bag9.jpg",
+            "city": "伦敦周边",
+            "country": "英国"
+        }
+    ],
+    "NorthAmerica": [
+        {
+            "img": "images/northUSA_bag1.jpg",
+            "city": "费城",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag2.jpg",
+            "city": "蒙特利尔",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag3.jpg",
+            "city": "渥太华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag4.jpg",
+            "city": "温哥华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag5.jpg",
+            "city": "哥斯达黎加",
+            "country": "哥斯达黎加"
+        },
+        {
+            "img": "images/northUSA_bag6.jpg",
+            "city": "南佛罗里达",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag7.jpg",
+            "city": "黄石国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag8.jpg",
+            "city": "优胜美地国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag9.jpg",
+            "city": "橙县",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag1.jpg",
+            "city": "费城",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag2.jpg",
+            "city": "蒙特利尔",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag3.jpg",
+            "city": "渥太华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag4.jpg",
+            "city": "温哥华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag5.jpg",
+            "city": "哥斯达黎加",
+            "country": "哥斯达黎加"
+        },
+        {
+            "img": "images/northUSA_bag6.jpg",
+            "city": "南佛罗里达",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag7.jpg",
+            "city": "黄石国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag8.jpg",
+            "city": "优胜美地国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag9.jpg",
+            "city": "橙县",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag1.jpg",
+            "city": "费城",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag2.jpg",
+            "city": "蒙特利尔",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag3.jpg",
+            "city": "渥太华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag4.jpg",
+            "city": "温哥华",
+            "country": "加拿大"
+        },
+        {
+            "img": "images/northUSA_bag5.jpg",
+            "city": "哥斯达黎加",
+            "country": "哥斯达黎加"
+        },
+        {
+            "img": "images/northUSA_bag6.jpg",
+            "city": "南佛罗里达",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag7.jpg",
+            "city": "黄石国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag8.jpg",
+            "city": "优胜美地国家公园",
+            "country": "美国"
+        },
+        {
+            "img": "images/northUSA_bag9.jpg",
+            "city": "橙县",
+            "country": "美国"
+        }
+    ],
+    "SouthAmerica": [
+        {
+            "img": "images/southUSA_bag1.jpg",
+            "city": "玻利维亚",
+            "country": "玻利维亚"
+        },
+        {
+            "img": "images/southUSA_bag2.jpg",
+            "city": "复活节岛",
+            "country": "智利"
+        },
+        {
+            "img": "images/southUSA_bag3.jpg",
+            "city": "圣保罗",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag4.jpg",
+            "city": "里约热内卢",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag5.jpg",
+            "city": "潘塔纳尔湿地",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag6.jpg",
+            "city": "哥伦比亚",
+            "country": "哥伦比亚"
+        },
+        {
+            "img": "images/southUSA_bag7.jpg",
+            "city": "圣地亚哥",
+            "country": "智利"
+        },
+        {
+            "img": "images/southUSA_bag8.jpg",
+            "city": "百纳国家公园",
+            "country": "智利"
+        },
+        {
+            "img": "images/southUSA_bag9.jpg",
+            "city": "萨尔瓦多",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag1.jpg",
+            "city": "玻利维亚",
+            "country": "玻利维亚"
+        },
+        {
+            "img": "images/southUSA_bag2.jpg",
+            "city": "复活节岛",
+            "country": "智利"
+        },
+        {
+            "img": "images/southUSA_bag3.jpg",
+            "city": "圣保罗",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag4.jpg",
+            "city": "里约热内卢",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag5.jpg",
+            "city": "潘塔纳尔湿地",
+            "country": "巴西"
+        },
+        {
+            "img": "images/southUSA_bag6.jpg",
+            "city": "哥伦比亚",
+            "country": "哥伦比亚"
+        }
+    ],
+    "Oceania": [
+        {
+            "img": "images/Oceania_bag1.jpg",
+            "city": "澳大利亚黄金海岸",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag2.jpg",
+            "city": "阿德莱德",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag3.jpg",
+            "city": "新西兰南岛",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag4.jpg",
+            "city": "新西兰自驾",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag5.jpg",
+            "city": "斐济",
+            "country": "斐济"
+        },
+        {
+            "img": "images/Oceania_bag6.jpg",
+            "city": "墨尔本",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag7.jpg",
+            "city": "塔斯马尼亚",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag8.jpg",
+            "city": "大堡礁",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag9.jpg",
+            "city": "大洋路",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag1.jpg",
+            "city": "澳大利亚黄金海岸",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag2.jpg",
+            "city": "阿德莱德",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag3.jpg",
+            "city": "新西兰南岛",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag4.jpg",
+            "city": "新西兰自驾",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag5.jpg",
+            "city": "斐济",
+            "country": "斐济"
+        },
+        {
+            "img": "images/Oceania_bag6.jpg",
+            "city": "墨尔本",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag7.jpg",
+            "city": "塔斯马尼亚",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag8.jpg",
+            "city": "大堡礁",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag9.jpg",
+            "city": "大洋路",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag1.jpg",
+            "city": "澳大利亚黄金海岸",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag2.jpg",
+            "city": "阿德莱德",
+            "country": "澳大利亚"
+        },
+        {
+            "img": "images/Oceania_bag3.jpg",
+            "city": "新西兰南岛",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag4.jpg",
+            "city": "新西兰自驾",
+            "country": "新西兰"
+        },
+        {
+            "img": "images/Oceania_bag5.jpg",
+            "city": "斐济",
+            "country": "斐济"
+        },
+        {
+            "img": "images/Oceania_bag6.jpg",
+            "city": "墨尔本",
+            "country": "澳大利亚"
+        }
+    ],
+    "Africa": [
+        {
+            "img": "images/Africa_bag1.jpg",
+            "city": "摩洛哥",
+            "country": "摩洛哥"
+        },
+        {
+            "img": "images/Africa_bag2.jpg",
+            "city": "塞舌尔",
+            "country": "塞舌尔"
+        },
+        {
+            "img": "images/Africa_bag3.jpg",
+            "city": "法属留尼汪岛",
+            "country": "留尼汪"
+        },
+        {
+            "img": "images/Africa_bag4.jpg",
+            "city": "纳米比亚",
+            "country": "纳米比亚"
+        },
+        {
+            "img": "images/Africa_bag5.jpg",
+            "city": "埃及",
+            "country": "埃及"
+        },
+        {
+            "img": "images/Africa_bag6.jpg",
+            "city": "开普敦",
+            "country": "南非"
+        },
+        {
+            "img": "images/Africa_bag7.jpg",
+            "city": "马达加斯加",
+            "country": "马达加斯加"
+        },
+        {
+            "img": "images/Africa_bag8.jpg",
+            "city": "非洲之傲列车",
+            "country": "南非"
+        }
+    ],
+    "Antarctica": [
+        {
+            "img": "images/Antarctica_bag.jpg",
+            "city": "乌斯怀亚到南极",
+            "country": "南极"
+        }
+    ]
+}

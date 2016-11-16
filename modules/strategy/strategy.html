@@ -1,0 +1,121 @@
+	<div class="mod-strategy">
+		<!-- 页面头部 -->
+		<header id="strategy-header">
+			<div class="strategy-header-left" ng-click="commonNavShow()">
+				<span class="strategy_three"></span>
+			</div>
+		</header>
+		<!-- 主体部分 -->
+		<div id="strategy-main">
+			<!-- 热门话题/帖子 -->
+			<ul class="strategy-hot">
+				<li>
+					<a href="##" class="strategy-hot-clicked">热门话题</a>
+					<div class="strategy-triangle"></div>
+				</li>
+				<li>
+					<a href="##">一周内热帖</a>
+				</li>
+			</ul>
+			<!-- 热门详情 -->
+			<div class="strategy-hot-detail">
+				<ul class="strategy-hot-topic ellipsis">
+					<li>
+						<a href="##">
+							【探云】夏日丘吉尔·观熊赏鲸看极光2016。8.25-27【副极地冷...】
+						</a>
+					</li>
+					<li>
+						<a href="##">
+							【对世界上瘾】带着汉堡包看世界——关西周游篇(神户-京都-...)
+						</a>
+					</li>
+					<li>
+						<a href="##">
+							20天·X个故事·IN斯里兰卡
+						</a>
+					</li>
+					<li>
+						<a href="##">
+							雨漫漫,中欧情! -2016秋奥捷13日游
+						</a>
+					</li>
+					<li>
+						<a href="##">
+							【CR看风景】加拉帕戈斯周游记--世界自认遗产NO.1亲历9个...
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 穷游小组 -->
+		<div class="strategy-groups">
+			<h3>穷游兴趣小组</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.interestGroup">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>穷游欧洲</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.europe">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>穷游亚洲</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.asia">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>穷游美洲</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.america">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>穷游大洋洲</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.oceanica">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>穷游非洲</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.africa">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>线上线下</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.onLineOff">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+			<h3>后院</h3>
+			<div class="strategy-group">
+				<a href="##" ng-repeat="x in strategyData.backyard">
+					<img ng-src="{{x.img}}" />
+					{{x.title}}
+				</a>
+			</div>
+		</div>
+		<!-- 页面底部 -->
+		<footer id="strategy-footer">
+			<p class="strategy-footer-copy">
+				2004-2015 © 穷游网™ qyer.com All rights reserved.
+			</p>
+			<p class="strategy-version">
+				<a href="##" class="strategy-footer-select">手机版</a>
+				<a href="##">电脑版</a>
+				<a href="##">APP</a>
+			</p>
+		</footer>
+	</div>

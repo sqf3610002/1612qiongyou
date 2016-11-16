@@ -1,0 +1,40 @@
+
+	<div id="doorTicket">
+		<!-- 头部的绿条 -->
+		<div class="name">
+			<span class="name_ico icon-back zwui-iconfont" ui-sref = "firstPage" ></span>
+			<p>自由行</p>
+			<span class="name_ico"></span>
+		</div>
+		<!-- 全部目的地、筛选 -->
+		<div class="header">
+			<div class="destination" ui-sref = ".allDestination" ng-click="boxShowClick()">全部目的地<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="filter" ui-sref=".screenHave" ng-click="boxShowClick()">筛选<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="sort" ui-sref=".sorting" ng-click="boxShowClick()"><span class="zwui-iconfont icon-rank"></span>排序</div>
+		</div>
+		<!-- 全部 -->
+		<div class="somePlace" ng-hide="boxShow">
+			<ul class="place">
+				<li ng-repeat="x in freeData.place"><a class="" data-type = "{{x.data}}">{{x.name}}</a></li>
+        	</ul>
+		</div>
+                <!-- 主体部分 -->
+        <div class="main" ng-hide="boxShow">
+        	<ul class="main_ul">
+        		<li ng-repeat="z in freeData.all">
+        			<div class="active" ng-show="{{z.is11}}">11.11周年庆</div>
+        			<div class="pic">
+        				<img class="lazy-img"  data-src="{{z.img}}" />
+        			</div>
+        			<div class="content">
+        				<p class="content_p1"><span>{{z.type}}</span><span class="zwui-iconfont icon-local2">{{z.name}}</span></p>
+        				<h3>{{z.info}}</h3>
+        				<p class="content_p2"><span>{{z.number}}已售</span><span><em>{{z.price}}</em>元起</span></p>
+        			</div>
+        		</li>
+        	</ul>
+        </div>
+	</div>
+	<div id="allDestinationBox" ng-show="boxShow">
+		<div ui-view=""></div>
+	</div>

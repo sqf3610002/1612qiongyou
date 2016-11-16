@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*主体*/
+
+@font-face {
+    font-family:zworld;
+    src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+    src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'), url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'), url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'), url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+.zwui-iconfont {
+    font-family:zworld!important;
+    speak:none;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+#screenHave{
+	width: 100%;
+	height: 6.56rem;
+	padding: 0.25rem 0.1rem;
+}
+#screenHave>.main>p{
+	width: 100%;
+	height: 0.25rem;
+	font-size: 0.13rem;
+	line-height: 0.25rem;
+	color: rgba(31,32,35,.4);
+	clear: both;
+}
+#screenHave>.main>ul>li{
+	width: 30%;
+	height: 0.31rem;
+	border: 1px solid rgba(31,32,35,.2);
+	float: left;
+	margin-bottom: 0.08rem;
+	margin-left: 0.1rem;
+	color: #636363;
+	border-radius:.4rem ;
+	text-align: center;
+	line-height: 0.31rem;
+	font-size: 0.13rem;
+	color: #636363;
+	background: white;
+}
+/*被点击的样式*/
+#screenHave>.main>ul>li.choose{
+	color: #fff;
+	background: #00b081;
+	border-color: #00b081;
+}

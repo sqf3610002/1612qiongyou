@@ -1,0 +1,67 @@
+
+.container{
+	background:linear-gradient(to right,#16B769,#03B087)!important;
+	height: 7.36rem;
+}
+/*头*/
+#logIn .header{height:0.48rem;width:4.14rem;display:flex;background:#06a174;}
+#logIn .header p{color:#fff;width:70%;font-size:0.16rem;text-align:center;line-height:0.48rem;}
+#logIn .name{color:#FFF;font-weight:bold;font-size:18px;width:15%;height:0.48rem;line-height:0.48rem;text-align:center;}
+#logIn .iconfont-back:before{content:'\EA04';}
+#logIn .header span:nth-of-type(2){font-size:0.14rem;padding:0 0.1rem;border:0.01rem solid #fff;border-radius:0.02rem;height:0.24rem;margin-top:0.13rem;padding-top:0.03rem;color:#fff;}
+
+/*登录方式*/
+#logIn .way{display:flex;margin-top:0.35rem;}
+#logIn .way li{font-size:0.16rem;width:50%;color:#fff;text-align:center;height:0.4rem;line-height:0.4rem;border-bottom:0.02rem solid #46c59c;}
+
+/*被选中的样子*/
+#logIn .choose{font-weight:bold;border-bottom-color:#fff!important;}
+
+/*输入信息部分*/
+#logIn .put{height:2.45rem;padding:0.15rem 0.2rem;position:relative;}
+#logIn .num{width:100%;height:0.4rem;background:#3bc296;border:0;color:#fff;margin-top:0.2rem;border-radius:0.05rem;padding-left:0.45rem;font-size:0.16rem;}
+#logIn input::-webkit-input-placeholder{color:#fff;}
+#logIn input:focus{outline:none;}
+#logIn .key{border-radius:0.05rem;margin-top:0.2rem;width:100%;height:0.4rem;background:#3bc296;border:0;color:#fff;font-size:0.16rem;padding-left:0.45rem;}
+#logIn .iconfont-user:before{content:'\EA06';color:#fff;position:absolute;top:0.43rem;left:0.33rem;}
+#logIn .iconfont-lock:before{content:'\EA05';position:absolute;top:1.07rem;left:0.33rem;color:#fff;}
+#logIn .forget{color:#fff;height:0.5rem;line-height:0.5rem;}
+#logIn .forget span{float:right;}
+#logIn .put button{width:100%;height:0.45rem;background:#fff;color:#0CBF79;font-size:0.16rem;border-radius:0.05rem;border:none;}
+#logIn .type{text-align:center;}
+#logIn .type a{color:#fff;font-size:0.16rem;padding:0 0.15rem;}
+#logIn .type a:first-of-type{border-right:0.01rem solid #fff;}
+
+/*第三方登录*/
+#logIn .footer{padding:0.7rem 0.15rem 0.2rem 0.15rem;}
+#logIn .footer p{color:#fff;font-size:0.16rem;text-align:center;}
+#logIn .icon span{display:inline-block;border-radius:0.23rem;margin:0.13rem;}
+#logIn .iconfont-qq:before{content:'\EA09';color:#fff;font-size:0.5rem;background:#0eb474;}
+#logIn .iconfont-weibo:before{content:'\EA0A';color:#fff;font-size:0.5rem;background:#0eb474;}
+
+@font-face{font-family:"login_font";src:url('http://common1.qyerstatic.com/login_m/common/fonts/login_font.eot?v=1462962396205');src:url('http://common1.qyerstatic.com/login_m/common/fonts/login_font.eot?#iefix') format('embedded-opentype'),url('http://common1.qyerstatic.com/login_m/common/fonts/login_font.woff?v=1462962396205') format('woff'),url('http://common1.qyerstatic.com/login_m/common/fonts/login_font.ttf?v=1462962396205') format('truetype'),url('http://common1.qyerstatic.com/login_m/common/fonts/login_font.svg#login_font?v=1462962396205') format('svg');}
+.iconfont{font-family:"login_font"!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}
+.iconfont-success:before{content:'\EA01'}
+.iconfont-error:before{content:'\EA02'}
+.iconfont-close2:before{content:'\EA03'}
+.iconfont-back:before{content:'\EA04'}
+.iconfont-lock:before{content:'\EA05'}
+.iconfont-user:before{content:'\EA06'}
+.iconfont-close:before{content:'\EA07'}
+.iconfont-lock2:before{content:'\EA08'}
+.iconfont-qq:before{content:'\EA09'}
+.iconfont-weibo:before{content:'\EA0A'}
+.iconfont-weixin:before{content:'\EA0B'}
+.iconfont-mail:before{content:'\EA0C'}
+.iconfont-jiantou1-you:before{content:'\EA0E'}
+.iconfont-jiantou1-zuo:before{content:'\EA0F'}
+.iconfont-jiantou_shang:before{content:'\EA10'}
+.iconfont-jiantou_xia:before{content:'\EA11'}
+.iconfont-jiantou_you:before{content:'\EA12'}
+.iconfont-jiantou_zuo:before{content:'\EA13'}
+.iconfont-jingdian:before{content:'\EA14'}
+.iconfont-arrow-top:before{content:'\EA40'}
+.iconfont-arrow-left:before{content:'\EA41'}
+.iconfont-arrow-bottom:before{content:'\EA42'}
+.iconfont-arrow-right:before{content:'\EA43'}
+.iconfont-back2:before{content:'\EA0D'}

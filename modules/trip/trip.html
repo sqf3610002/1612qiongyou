@@ -1,0 +1,61 @@
+	<div class="mod-trip">
+		<!-- 页面头部 -->
+		<header id="trip-header">
+			<div class="trip-header-left" ng-click="commonNavShow()">
+				<span class="icon-drawer zwui-iconfont"></span>
+			</div>
+			穷游行程助手
+		</header>
+		<!-- 行程列表 -->
+		<ul class="trip-list-ul">
+			<li>
+				<span>我的行程</span>
+			</li>
+			<li>
+				<span class="trip-list-clicked">热门行程</span>
+			</li>
+		</ul>
+		<!-- 主体 -->
+		<!-- 行程列表详情 -->
+		<div id="trip-main">
+			<!-- 我的行程 -->
+			<div class="trip-mine"></div>
+			<!-- 热门行程 -->
+			<div class="trip-hot">
+				<!-- 热门行程列表详细信息 -->
+				<div class="trip-hot-detail" ng-repeat="x in data" ui-sref = "tripUserPage">
+					<div class="hot-detail-box" style="background: url('{{x.photo}}');">
+						<a href="##" class="trip-user" data-regdate="2016-10-31">
+                    		<img ng-src="{{x.userPhoto}}">&nbsp;
+                    		{{x.userName}}
+                   		</a>
+						<div class="hot-detail-words">
+							<div class="hot-detail-words-left">
+								<span class="trip-hot-day">{{x.dayNum}}</span>
+								<span class="trip-hot-dayWord">天</span>
+							</div>
+							<div class="hot-detail-words-right">
+								<p class="hot-detail-words-p1">{{x.dayStart}}出发</p>
+								<p class="hot-detail-words-p2">{{x.articleTitle}}</p>
+							</div>
+						</div>
+					</div>
+					<div class="trip-hot-route .ellipsis">
+						{{x.route}}
+					</div>
+				</div>
+		</div>
+		<div id="trip-load-more">
+			<span>载入更多行程</span>
+		</div>
+		<div class="trip-empty-box"></div>
+		<!-- 底部按钮 -->
+		<footer id="trip-footer">
+			<div class="trip-footer-left">
+				<div>行程定制</div>
+			</div>
+			<div class="trip-footer-right" ui-sref = "createTrip">
+				+创建新的行程
+			</div>
+		</footer>
+	</div>

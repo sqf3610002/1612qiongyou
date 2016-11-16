@@ -1,0 +1,273 @@
+
+		<!--主页头部-->
+		<header id="qiongyou_header">
+			<h1 class="qiongyou_header_logo"></h1>
+			<div  ui-sref="personalInfo">
+				<div class="qiongyou_header_img"><img src="images/qiongyou_header2.png" alt="" /></div>
+				<span>
+					yzliang123
+				</span>
+			</div>
+		</header>
+		<!--主页广告-->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide"><img src="images/qiongyou_header3.png"/></div>
+		    </div>
+		</div>
+		<!--搜索框-->
+		<div id="qiongyou_input">
+			<input type="text"  placeholder="搜索目的地／游记攻略／问答" ng-click="inputClick()"/>
+		</div>
+		<!--导航按钮-->
+		<ul id="qiongyou_nav">
+			<li ui-sref = "destination">
+				<div class="qiongyou_nav_icon" style="background:#ffbd56;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-place"></i>
+					</div>
+					<p class="qiongyou_nav_name">目的地</p>
+				</div>
+			</li>
+			<li ui-sref = "trip">
+				<div class="qiongyou_nav_icon" style="background:#25d9b2;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-plan"></i>
+					</div>
+					<p class="qiongyou_nav_name">行程</p>
+				</div>
+			</li>
+			<li ui-sref = "strategy">
+				<div class="qiongyou_nav_icon" style="background:#5dcce7;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-bbs"></i>
+					</div>
+					<p class="qiongyou_nav_name">游记攻略</p>
+				</div>
+			</li>
+			<li ui-sref = "firstPage">
+				<div class="qiongyou_nav_icon" style="background:#fb9388;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-z"></i>
+					</div>
+					<p class="qiongyou_nav_name">商城</p>
+				</div>
+			</li>
+			<li ui-sref = "ask">
+				<div class="qiongyou_nav_icon" style="background:#5da1e7;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-ask"></i>
+					</div>
+					<p class="qiongyou_nav_name">提问</p>
+				</div>
+			</li>
+			<li>
+				<div class="qiongyou_nav_icon" style="background:#ffa071;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-hotel"></i>
+					</div>
+					<p class="qiongyou_nav_name">酒店</p>
+				</div>
+			</li>
+			<li ui-sref = "play">
+				<div class="qiongyou_nav_icon" style="background:#fcca00;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-wan"></i>
+					</div>
+					<p class="qiongyou_nav_name">会玩</p>
+				</div>
+			</li>
+			<li ng-show="navShow" ui-sref = "airTicket">
+				<div class="qiongyou_nav_icon" style="background:#b993ff;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-flight"></i>
+					</div>
+					<p class="qiongyou_nav_name">机票</p>
+				</div>
+			</li>
+			<li ng-show="navShow" ui-sref = "bag">
+				<div class="qiongyou_nav_icon" style="background:#ffbd56;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-guide"></i>
+					</div>
+					<p class="qiongyou_nav_name">穷游锦囊</p>
+				</div>
+			</li>
+			<li ng-show="navShow" ui-sref = "jne">
+				<div class="qiongyou_nav_icon" style="background:#9bde26;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-jne"></i>
+					</div>
+					<p class="qiongyou_nav_name">JNE</p>
+				</div>
+			</li>
+			<li ng-show="navShow" ui-sref = "with">
+				<div class="qiongyou_nav_icon" style="background:#25d986;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont icon-jieban"></i>
+					</div>
+					<p class="qiongyou_nav_name">结伴</p>
+				</div>
+			</li>
+			<li ng-click="shouqiClick()">
+				<div class="qiongyou_nav_icon" style="background:#ced1d5;">
+					<div class="qiongyou_nav_img">
+						<i class="iconfont {{icon}}"></i>
+					</div>
+					<p class="qiongyou_nav_name">{{iconP}}</p>
+				</div>
+			</li>			
+		</ul>
+		<!--最世界商城-->
+		<div id="qiongyou_shop">
+			<h1>
+				最世界商城
+				<span ui-sref = "firstPage">更多</span>
+			</h1>
+			<div class="qiongyou_shop_main">
+				<div class="qiongyou_shop_left">
+					<div class="qiongyou_shop_left_time">
+						<div class="flip-group">
+							<div class="flip-digit" style="margin-left: 0;">
+								<span>{{hLeft}}</span>
+							</div>
+							<div class="flip-digit">
+								<span>{{hRight}}</span>
+							</div>
+						</div>
+						<div class="flip-colon">:</div>
+						<div class="flip-group">
+							<div class="flip-digit" style="margin-left: 0;">
+								<span>{{mLeft}}</span>
+							</div>
+							<div class="flip-digit">
+								<span>{{mRight}}</span>
+							</div>
+						</div>
+						<div class="flip-colon">:</div>
+						<div class="flip-group">
+							<div class="flip-digit" style="margin-left: 0;">
+								<span>{{sLeft}}</span>
+							</div>
+							<div class="flip-digit">
+								<span>{{sRight}}</span>
+							</div>
+						</div>
+					</div>
+					<img src="images/qiongyou_shop3.png"/>
+					<p>
+						冰岛雷克雅未克黄金圈+冰洞探秘+冰河湖赏极光三日游
+					</p>
+					<div class="qiongyou_shop_left_price">
+						<em>5180</em>元起
+					</div>
+					<div class="qiongyou_shop_left_btn">
+						抢光了
+					</div>
+				</div>
+				<div class="qiongyou_shop_right">
+					<div class="qiongyou_shop_right_left">
+						<div class="menpiao" ui-sref ="cityPlay">
+							<div>
+								<h3>门票</h3>
+								<p>有意思</p>
+							</div>
+							<span></span>
+						</div>
+						<div class="qianzheng" ui-sref = "visa">
+							<div>
+								<h3>签证</h3>
+								<p>有保障</p>
+							</div>
+							<span></span>
+						</div>
+					</div>
+					<div class="qiongyou_shop_right_right">
+						<div class="ziyouxing" ui-sref = "free">
+							<div>
+								<h3>自由行</h3>
+								<p>有优惠</p>
+							</div>
+							<span></span>
+						</div>
+						<div class="wifi">
+							<div>
+								<h3>WIFI/电话卡</h3>
+								<p>全球覆盖</p>
+							</div>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--游记与话题-->
+		<div id="qiongyou_youji">
+			<h1>
+				游记与话题
+				<span>更多</span>
+			</h1>
+			<div class="qiongyou_youji_list">
+				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.one ">
+					<img ng-src="{{x.img}}"/>
+					<div class="qiongyou_youji_list_right">
+						<p class="youji_list_name">{{x.name}}</p>
+						<div class="youji_list_author">
+							<img ng-src="{{x.touxiang}}"/>
+							<b>{{x.author}}</b>
+							<span class="lvBiao" ng-show="{{x.green}}"></span>
+							<span class="redBiao" ng-show="{{x.red}}"></span>
+							<span class="youji_list_comment"><i class="iconfont icon-huifu"></i>{{x.huifu}}</span>
+						</div>
+					</div>
+				</div>
+				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.two " ng-show="two">
+					<img ng-src="{{x.img}}"/>
+					<div class="qiongyou_youji_list_right">
+						<p class="youji_list_name">{{x.name}}</p>
+						<div class="youji_list_author">
+							<img ng-src="{{x.touxiang}}"/>
+							<b>{{x.author}}</b>
+							<span class="lvBiao" ng-show="{{x.green}}"></span>
+							<span class="redBiao" ng-show="{{x.red}}"></span>
+							<span class="youji_list_comment"><i class="iconfont icon-huifu"></i>{{x.huifu}}</span>
+						</div>
+					</div>
+				</div>
+				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.three " ng-show="three">
+					<img ng-src="{{x.img}}"/>
+					<div class="qiongyou_youji_list_right">
+						<p class="youji_list_name">{{x.name}}</p>
+						<div class="youji_list_author">
+							<img ng-src="{{x.touxiang}}"/>
+							<b>{{x.author}}</b>
+							<span class="lvBiao" ng-show="{{x.green}}"></span>
+							<span class="redBiao" ng-show="{{x.red}}"></span>
+							<span class="youji_list_comment"><i class="iconfont icon-huifu"></i>{{x.huifu}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="qiongyou_youji_list_All" ng-click="GDclick()">展开更多</a>
+		</div>
+		<footer id="qiongyou_footer">
+			<p>
+				<a>手机版</a>
+				<a href="##">电脑版</a>
+				<a href="##">APP</a>
+				<a href="##">意见反馈</a>
+			</p>
+			<p>
+				2004-2016 ©北京穷游天下科技发展有限公司<br />
+				京ICP备12003524号 | 电话 010 64554669
+			</p>
+		</footer>
+		<div id="qiongyou_mask" ng-show="inputShow" style="height: {{HH}}px;">
+			<div class="qiongyou_mask_top">
+				<span ng-click="inputClick()">
+					<i class="iconfont iconfont-back"></i>
+				</span>
+				<input type="text" placeholder="搜索" />
+				<a href="##">搜索</a>
+			</div>
+		</div>
