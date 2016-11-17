@@ -285,3 +285,28 @@
 .trip-uPage-copy{
 	border-right: 0.01rem solid #fff; 
 }
+.trip-uPage-menuBtn>span{
+	text-align: center;
+	line-height: 0.45rem;
+}
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.zwui-iconfont {
+	font-family:zworld!important;
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.icon-drawer:before {
+    content: "\e602";
+}
