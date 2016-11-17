@@ -24,5 +24,14 @@ angular.module('TripModules',['ui.router'])
         		}
 	        })
         }
+    $(".trip-helper-banner").on("click",function(){
+          $(".trip-show-words").addClass("tirpUpMove");
+          setTimeout(function(){
+            $(".tripShowBox").remove();
+          },1000);
+    });
+    $scope.closeIt = function(){
+        $scope.flag = true;
+    }
          
      }])
