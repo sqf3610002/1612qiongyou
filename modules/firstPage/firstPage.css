@@ -7,6 +7,7 @@ body{font-family:Helvetica;}
 body{font-size:0.14rem;}
 
 /*头绿色的部分*/
+#firstPage{background: #fff;}
 #firstPage .name{height:0.4rem;width:100%;display:flex;background:linear-gradient(to right,#4ec872,#10c0a5)}
 #firstPage .name p{width:70%;line-height:0.4rem;text-align:center;}
 #firstPage .name p img{height:0.25rem;width:auto;margin-top:0.07rem;}
@@ -55,6 +56,11 @@ body{font-size:0.14rem;}
 #firstPage .tb td{height:1.32rem;}
 #firstPage .tb td img{height:1.32rem;width:1.92rem;}
 #firstPage .tb td .big{height:1.32rem;width:3.95rem;}
+/*全部国家*/
+#firstPage .country{width: 100%;padding: 0 0.2rem;}
+#firstPage .country h3{font-size: 0.24rem;color: #636363;height: 0.65rem;line-height: 0.8rem;}
+#firstPage .country a{font-size: 0.16rem;color: #636363;display: inline-block;width: 1.83rem;height: 0.35rem;line-height: 0.35rem;}
+
 
 /*页脚说明部分*/
 #firstPage .explain{margin-bottom: 0.54rem;height:0.6rem;background:#f5f5f5;margin-top:0.1rem;}

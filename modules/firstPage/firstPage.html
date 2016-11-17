@@ -46,13 +46,13 @@
 			<a  class="search_a"><span class="search_sp icon-search zwui-iconfont"></span>搜索目的地/折扣/关键字</a>
 		</div>
 		<div class="main">
-			<ul>
-				<li class="choose">热门目的地</li>
-				<li>全部国家</li>
+			<ul id="main_ul">
+				<li class="choose" ng-click="hotPlace()">热门目的地</li>
+				<li ng-click="allCty()">全部国家</li>
 			</ul>
 		</div>
 		<!-- 各个城市的图片 -->
-		<table class="tb">
+		<table class="tb" ng-show="flag">
 			<tbody>
 				<tr>
 					<td colspan="2">
@@ -106,6 +106,29 @@
 				</tr>
 			</tbody>
 		</table>
+		<!-- 全部国家 -->
+		<div class="country" ng-show="show">
+			<h3>亚洲</h3>
+			<a href="###" ng-repeat="x in arr">{{x.name}}</a>
+			
+			<h3>欧洲</h3>
+			<a href="###" ng-repeat="x in arr1">{{x.name}}</a>
+			
+			<h3>大洋洲</h3>
+			<a href="###" ng-repeat="x in arr2">{{x.name}}</a>
+			
+			<h3>北美</h3>
+			<a href="###" ng-repeat="x in arr3">{{x.name}}</a>
+			
+			<h3>非洲</h3>
+			<a href="###" ng-repeat="x in arr4">{{x.name}}</a>
+			
+			<h3>南美</h3>
+			<a href="###" ng-repeat="x in arr5">{{x.name}}</a>
+			
+			<h3>南极洲</h3>
+			<a href="###">南极</a>
+		</div>
 		<!-- 页脚说明部分 -->
 		<div class="explain">
 			<p class="copyright">2004-2015 © 穷游网™ qyer.com All rights reserved.</p>
