@@ -1,0 +1,109 @@
+@charset="utf-8";
+/*页面渐变色背景*/
+.mod-newTripCountry{
+	width: 100%;
+	/*height: 7.36rem;*/
+	/*height: 100%;*/
+	background: -webkit-linear-gradient(left top, #72ca64 , #23ab7b);
+	background: -o-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: -moz-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: linear-gradient(to bottom right, #72ca64 , #23ab7b);
+	line-height: 0.31rem;
+	color: #fff;
+	padding-top: 0.129rem;
+	font-size: 0.168rem;
+}
+.newTripCountryBox{
+	width: 3.62rem;
+	margin: 0 auto;
+}
+#newTripCInput{
+	width: 3.62rem;
+	height: 0.524rem;
+	line-height: 0.524rem;
+	background: transparent;
+	font-size: 0.168rem;
+	border: 0.01rem solid #fff;
+	padding-left: 0.1rem;
+}
+/*input标签placeholder改变颜色 兼容各浏览器*/
+/*WebKit browsers*/
+input::-webkit-input-placeholder{
+	color: #ddd!important;
+}
+/* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder {
+　　color: #ddd !important; 
+}
+/*Mozilla Firefox 19+ */
+input::-moz-placeholder {
+　　color: #ddd !important;  
+}
+/* Internet Explorer 10+ */
+input:-ms-input-placeholder {
+　　color: #ddd !important; 
+}
+/*分类城市列表*/
+.newTripCClassify{
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+}
+.newTripCClassify li{
+	-webkit-flex: 1;
+	flex: 1;
+	height: 0.43rem;
+	line-height: 0.43rem;
+}
+.newTripCClassify a{
+	/*display: inline-block;*/
+	font-size: 0.168rem;
+	color: #fff;
+	padding-bottom: 0.05rem;
+}
+.newTripCClicked{
+	border-bottom: 0.01rem solid #fff;
+}
+.newTripCountryList{
+	/*display: -webkit-flex;*/
+	/*display: flex;*/
+	/*display: box;*/
+	/*margin-bottom: 2rem;*/
+	overflow: hidden;
+}
+.newTripCImg{
+	width: 1.164rem;
+	height: 1.164rem;
+	float: left;
+	margin-right: 0.042rem;
+	position: relative;
+	margin-bottom: 0.2rem;
+/*	-webkit-flex: 1;
+	flex: 1;*/
+}
+.newTripCImg img{
+	width: 1.164rem;
+	height: 1.164rem;
+}
+.newTripCImg p{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.newTripEmptyBox{
+	width: 100%;
+	height: 0.8rem;
+	background: transparent;
+	/*padding-bottom: 3rem;*/
+}
+/*页面底部取消按钮*/
+#newTripCfooter{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background: #198760;
+}

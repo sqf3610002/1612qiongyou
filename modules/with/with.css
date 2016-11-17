@@ -1,0 +1,179 @@
+@charset "utf-8";
+/*头部*/
+#jne_header{
+	width: 4.14rem;
+	height: 0.44rem;
+	background: #2bab79;
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.44rem;
+}
+#jne_header img{
+	display: block;
+	width: 20%;
+}
+#jne_header a{
+	color: #fff;
+	margin-right: 0.1rem;
+}
+/*广告栏*/
+#with_trip{
+	height: 0.44rem;
+	padding: 0.1rem;
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+	color: #444;
+}
+#with_trip a{
+	float: right;
+	font-size: 0.14rem;
+    color: #A2A2A2;
+    padding-top: 0.02rem;
+}
+#with_banner{
+	width: 100%;
+	height: 1.96rem;
+	padding: 0 0.1rem;
+	position: relative;
+}
+#with_banner img{
+	width: 100%;
+	height: 100%;
+}
+#with_banner .withBottom{
+	position: absolute;
+    height: 0.5rem;
+    line-height: 0.2rem;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 95%;
+    background: rgba(000, 000, 000, 0.4);
+    color: #fff;
+    font-size: 0.14rem;
+    text-align: left;
+    padding: 0.05rem 0.12rem;
+    margin: 0 0.1rem;
+}
+/*主体*/
+#with_main .choice{
+	margin: 0 0.1rem;
+	width: 95%;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	display: flex;
+	margin-top: 0.2rem;
+	font-size: 0.14rem;
+	border-bottom: 1px solid #e6e8ea;
+}
+#with_main .choice li{
+	margin: 0 0.1rem;
+}
+#with_main .choice .current{
+	color:  #2bab79;
+}
+#with_main .contain{
+	margin-left: 0.1rem;
+	width: 100%；
+	height: 0.79rem;
+	padding: 0.15rem 0;
+	font-size: 0.14rem;
+	color: #444;
+	line-height: 0.24rem; 
+}
+#with_main .contain li:last-of-type{
+	color: #999;
+	font-size: 0.12rem;
+}
+#with_main .contain img:last-of-type{
+	margin-left: 3%;
+}
+#with_main .contain img{
+	width: 15%;
+	vertical-align: middle;
+	margin-right: 1%; 
+}
+#with_main .contain li:last-of-type span{
+	float: right;
+}
+#with_main .page{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background: #f7f8f9;
+    height: 0.26rem;
+    line-height: 0.26rem;
+    overflow: hidden;
+    clear: both;
+    zoom: 1;
+    border-bottom: #f0f2f3 1px solid;
+    border-top: #edeef0 solid 1px; 
+}
+#with_main .page a{
+    color:#4998cc;
+}
+#with_main .page li div{
+	width: 0.64rem;
+	height: 0.18rem;
+	background: #fff;
+	text-align: center;
+	line-height: 0.18rem;
+	margin: 0.03rem 0;
+	color: #999;
+}
+#with_main .page li{
+	padding-right: 5%;
+	border-right: solid 1px #ddd;
+}
+#with_main .page li:last-of-type{
+	border-right: none;
+}
+#with_main .page li:first-of-type{
+	margin-left: 5%;
+}
+/*页脚*/
+#with_footer{
+	clear: both;
+	width: 100%;
+	height: 0.4rem;
+	margin: 0.2rem 0;
+	text-align: center;
+	font-size: 0.1rem;
+	line-height: 0.2rem;
+}
+#with_footer p:first-of-type{
+	color: #9ea3ab;
+}
+/*#with_footer #tm{
+	font-size: 0.05rem;
+	margin: 0;
+}*/
+#with_footer span:first-of-type{
+	color: #9ea3ab;
+}
+#with_footer a span{
+	color: #444;
+}
+#with_footer span{
+	margin: 0 0.15rem;
+}
+@font-face {
+	font-family:zworld;
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);
+	src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.with_three{
+	font-family:zworld!important;
+	display: inline-block;
+    width: 0.44rem;
+    height: 0.44rem;
+    font-size: 0.18rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: white;
+}
+.with_three:before {
+    content: "\e602";
+}

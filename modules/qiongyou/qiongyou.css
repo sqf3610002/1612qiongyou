@@ -1,0 +1,633 @@
+@charset "utf-8";
+/*主页头部*/
+#qiongyou_header{
+	width: 100%;
+	height: 0.5259rem;
+	padding: 0.108rem 0.12rem;
+	background: #2bab79;
+	display: -webkit-flex;
+	display: flex;
+
+}
+#qiongyou_header>h1{
+	background: url(../../images/qiongyou_header1.png) no-repeat;
+	width: 1.2rem;
+	height: 100%;
+	background-size: 0.9rem auto;
+	margin-right: auto;
+}
+#qiongyou_header>div{
+	width: 1.008rem;
+	height: 100%;
+	margin-left: auto;
+	display: -webkit-flex;
+	display: flex;
+}
+#qiongyou_header>div>.qiongyou_header_img{
+	width: 0.288rem;
+	height: 0.288rem;
+	margin: auto 0;
+}
+#qiongyou_header>div>.qiongyou_header_img>img{
+	border-radius: 50%;
+	display: block;
+	width: 100%;
+}
+#qiongyou_header>div>span{
+	display: inline-block;
+	color: white;
+	font-size: 0.14rem;
+	height: 100%;
+	width: 0.68rem;
+	line-height: 0.31rem;
+}
+/*主页广告*/
+.swiper-container{
+	width: 100%;
+	height: 2rem;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+/*主页搜索*/
+#qiongyou_input{
+	width: 100%;
+	height: 0.6119rem;
+	padding: 0.096rem 0.108rem;
+	border-bottom: 1px solid #e6e8ea;
+}
+#qiongyou_input>input{
+	width: 3.9241rem;
+	height: 0.41rem;
+	border: 1px solid #ced1d5;
+	font-size: 0.14rem;
+	padding-left: 0.6rem;
+	display: block;
+	background: url(../../images/qiongyou_input.png) no-repeat  0.36rem #fff;
+	background-size: 0.192rem 0.192rem;
+	color: #9ea3ab;
+}
+/*主页导航按钮*/
+@font-face {
+    font-family:home_font;
+    src:url(http://common1.qyerstatic.com/home/common/fonts/home_font.eot?v=1470127475802);
+    src:url(http://common1.qyerstatic.com/home/common/fonts/home_font.eot#iefix) format('embedded-opentype'), url(http://common1.qyerstatic.com/home/common/fonts/home_font.woff?v=1470127475802) format('woff'), url(http://common1.qyerstatic.com/home/common/fonts/home_font.ttf?v=1470127475802) format('truetype'), url(http://common1.qyerstatic.com/home/common/fonts/home_font.svg#home_font?v=1470127475802) format('svg')
+}
+.iconfont {
+    font-family:home_font!important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width:.2px;
+    -moz-osx-font-smoothing:grayscale
+}
+.iconfont {
+    display:block;
+    font-size:1.6rem;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width:.2px;
+    -moz-osx-font-smoothing:grayscale
+}
+.icon-place:before {
+    content:'\EA25'
+}
+.icon-plan:before {
+    content:'\EA26'
+}
+.icon-bbs:before {
+    content:'\EA07'
+}
+.icon-z:before {
+    content:'\EA4F'
+}
+.icon-ask:before {
+    content:'\EA05'
+}
+.icon-hotel:before {
+    content:'\EA10'
+}
+.icon-wan:before {
+    content:'\EA3F'
+}
+.icon-flight:before {
+    content:'\EA0D'
+}
+.icon-guide:before {
+    content:'\EA0F'
+}
+.icon-jne:before {
+    content:'\EA1C'
+}
+.icon-jieban:before {
+    content:'\EA19'
+}
+.icon-arrow-down:before {
+    content:'\EA03'
+}
+.icon-arrow-up:before {
+    content:'\EA04'
+}
+#qiongyou_nav{
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#qiongyou_nav>li{
+	width: 1.035rem;
+	height: 0.75rem;
+	margin-bottom: 0.18rem;
+	background: 3;
+	line-height: 0.75rem;
+}
+#qiongyou_nav>li>div{
+	width: 0.72rem;
+	height: 0.72rem;
+	margin: 0 auto;
+	border-radius: 0.04rem;
+	overflow: hidden;
+}
+#qiongyou_nav>li>div>.qiongyou_nav_img{
+	width: 100%;
+	height: 0.48rem;
+	text-align: center;
+	position: relative;
+}
+#qiongyou_nav>li>div>.qiongyou_nav_img>i{
+	font-size: 0.36rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	color: white;
+	width: 0.36rem;
+	margin: 0 auto;
+}
+#qiongyou_nav>li>div>.qiongyou_nav_name{
+	width: 100%;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	color: white;
+	text-align: center;
+	background: rgba(50,50,50,0.5);
+	font-size: 0.12rem;
+}
+#qiongyou_nav>li>div>.qiongyou_nav_img>.icon-place{
+	display: inline-block;
+	width: 0.3119rem;
+	height: 0.31rem;
+	line-height: 0.31rem;
+	font-size: 0.31rem;
+	position: absolute;
+	left: 0.205rem;
+	top: 0;
+	-webkit-animation:destd 1.5s ease-in-out infinite;
+    animation:destd 1.5s ease-in-out infinite
+}
+@-webkit-keyframes destd {
+    0% {
+        -webkit-transform:translateY(3px);
+        transform:translateY(3px)
+    }
+    50% {
+        -webkit-transform:translateY(0);
+        transform:translateY(0)
+    }
+    to {
+        -webkit-transform:translateY(3px);
+        transform:translateY(3px)
+    }
+}
+.qiongyou_nav_hide{
+	display: block;
+}
+/*最世界商城*/
+#qiongyou_shop{
+	width: 100%;
+	background: white;
+	border-top:1px solid #e6e8ea ;
+	border-bottom:1px solid #e6e8ea ;
+}
+#qiongyou_shop>h1{
+	width: 100%;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	text-align: center;
+	color: #656669;
+	position: relative;
+	font-size: 0.2rem;
+	border-bottom:1px solid #e6e8ea ;
+}
+#qiongyou_shop>h1>span{
+	height: 100%;
+	width: 0.408rem;
+	padding-right:0.168rem ;
+	color:#25d9b2 ;
+	position: absolute;
+	right: 0.048rem;
+	font-size: 0.12rem;
+	background: url(../../images/qiongyou_shop1.png) no-repeat right .216rem;
+	background-size: 0.144rem;
+	font-weight: normal;
+}
+#qiongyou_shop>.qiongyou_shop_main{
+	width: 100%;
+	height: 2.64rem;
+	display: -webkit-flex;
+	display: flex;
+}
+#qiongyou_shop .qiongyou_shop_left{
+	width: 1.5525rem;
+	height: 2.64rem;
+	background: #F8F8F8;
+	padding: 0.12rem 0.084rem 0.12rem 0.06rem;
+}
+#qiongyou_shop .qiongyou_shop_left>.qiongyou_shop_left_time{
+	width: 100%;
+	height: 0.24rem;
+	
+}
+.qiongyou_shop_left_time>.flip-group{
+	width: 0.38rem;
+	height: 0.24rem;
+	float: left;
+}
+.qiongyou_shop_left_time>.flip-group>.flip-digit{
+	width: 0.18rem;
+    height:0.24rem;
+    line-height: 0.24rem;
+	margin-left:0.02rem;
+    text-align:center;
+	float: left;
+	border-radius: 0.03rem;
+	overflow: hidden;
+}
+.qiongyou_shop_left_time>.flip-colon{
+	width: 0.05rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	text-align: center;
+	font-size: 0.18rem;
+	float: left;
+}
+.qiongyou_shop_left_time>.flip-group>.flip-digit>span{
+	display: block;
+	font-size: 0.216rem;
+	color: white;
+	width: 0.18rem;
+	height: 0.24rem;
+	line-height: 0.24rem;
+	background: url(../../images/qiongyou_shop2.png) no-repeat;
+}
+#qiongyou_shop .qiongyou_shop_left>img{
+	width: 100%;
+	margin-top: 0.12rem;
+	display: block;
+}
+#qiongyou_shop .qiongyou_shop_left>p{
+	width: 100%;
+	line-height::0.187199rem;;
+	color: #9ea3ab;
+	font-size: 0.144rem;
+	padding: 0 0.06rem;
+	margin-top: 0.096rem;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-height: 0.5616rem;
+}
+#qiongyou_shop .qiongyou_shop_left>.qiongyou_shop_left_price{
+	width: 100%;
+	height: 0.22rem;
+	text-align: right;
+	font-size: 0.12rem;
+	color: #959595;
+}
+.qiongyou_shop_left_price>em{
+	font-size: 0.192rem;
+	color: #ff7566;
+	margin: 0.024rem;
+	text-align: right;
+}
+.qiongyou_shop_left_btn{
+	width: 1.31953rem;
+	height: 0.24rem;
+	border-radius:0.036rem ;
+	background: #C3C3C3;
+	color: white;
+	line-height: 0.24rem;
+	text-align: center;
+	font-size: 0.12rem;
+	cursor: pointer;
+	margin: o auto;
+}
+#qiongyou_shop .qiongyou_shop_right{
+	width: 2.5875rem;
+	height: 2.64rem;
+}
+.qiongyou_shop_right_left{
+	width: 1.27875rem;
+	height: 2.64rem;
+	border-right: 1px solid #e6e8ea;
+	float: left;
+}
+.qiongyou_shop_right_left>div,.qiongyou_shop_right_right>div{
+	width: 100%;
+	height: 1.32rem;
+	position: relative;
+}
+.qiongyou_shop_right_left>.menpiao{
+	border-bottom: 1px solid #e6e8ea;
+}
+.qiongyou_shop_right_right>.ziyouxing{
+	border-bottom: 1px solid #e6e8ea;
+}
+.qiongyou_shop_right_left>div>div,.qiongyou_shop_right_right>div>div{
+	width: 100%;
+	height: 0.46rem;
+}
+.qiongyou_shop_right_left>div>div>h3,.qiongyou_shop_right_right>div>div>h3{
+	width: 100%;
+	height: 0.34rem;
+	padding: 0.12rem 0 0.06rem 0.072rem;
+	font-size: 0.16rem;
+}
+.qiongyou_shop_right_left>.menpiao>div>h3{
+	color:#fb9388 ;	
+}
+.qiongyou_shop_right_left>.qianzheng>div>h3{
+	color:#ffbd56 ;	
+}
+.qiongyou_shop_right_right>.ziyouxing>div>h3{
+	color:#5dcce7 ;	
+}
+.qiongyou_shop_right_right>.wifi>div>h3{
+	color:#25d9b2 ;	
+}
+.qiongyou_shop_right_left>div>div>p,.qiongyou_shop_right_right>div>div>p{
+	width: 100%;
+	padding-left: 0.072rem;
+	height: 0.12rem;
+	font-size: 0.12rem;
+	color: #ced1d5;
+}
+.qiongyou_shop_right_right{
+	width: 1.28875rem;
+	height: 2.64rem;
+	float: left;
+}
+.qiongyou_shop_right_left>div>span,.qiongyou_shop_right_right>div>span{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.qiongyou_shop_right_left>.menpiao>span{
+	width: 0.90594rem;
+	height: 0.63rem;
+	background: url(../../images/qiongyou_shop4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.qiongyou_shop_right_left>.qianzheng>span{
+	width: 0.81rem;
+	height: 0.75rem;
+	background: url(../../images/qiongyou_shop5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.qiongyou_shop_right_right>.ziyouxing>span{
+	width: 1.038rem;
+	height: 0.81rem;
+	background: url(../../images/qiongyou_shop6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.qiongyou_shop_right_right>.wifi>span{
+	width: 0.66rem;
+	height: 0.948rem;
+	background: url(../../images/qiongyou_shop7.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*游记与话题*/
+#qiongyou_youji{
+	width: 100$;
+	background: white;
+	padding: 0 .12rem;
+	border: 1px solid #e6e8ea;
+	margin-top: .12rem;
+}
+#qiongyou_youji>h1{
+	width: 100%;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	text-align: center;
+	color: #656669;
+	position: relative;
+	font-size: 0.2rem;
+	margin-bottom: 0.12rem;
+}
+#qiongyou_youji>h1>span{
+	height: 100%;
+	width: 0.408rem;
+	padding-right:0.168rem ;
+	color:#25d9b2 ;
+	position: absolute;
+	right: 0.048rem;
+	font-size: 0.12rem;
+	background: url(../../images/qiongyou_shop1.png) no-repeat right .216rem;
+	background-size: 0.144rem;
+	font-weight: normal;
+}
+.qiongyou_youji_list{
+	width: 100%;
+}
+.qiongyou_youji_list>.qiongyou_youji_info{
+	width: 100%;
+	height: 0.94188rem;
+	margin-bottom: 0.24rem;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>img{
+	display: block;
+	width: 1.4003rem;
+	height: 0.94188rem;
+	float: left;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right{
+	float: left;
+	width: 2.47rem;
+	height: 0.8619rem;
+	padding: 0.048rem 0 0 0.12rem;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_name{
+	width: 100%;
+	height: 0.38391rem;
+	margin-bottom: 0.12rem;
+	color: #9ea3ab;
+	line-height: 0.192rem;
+	font-size: 0.14rem;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_author{
+	width: 100%;
+	height: 0.29rem;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_author>img{
+	display: block;
+	width: 0.288rem;
+	height: 0.288rem;
+	border-radius: 50%;
+	margin: auto 0;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_author>b{
+	height: 0.24rem;
+	line-height: 0.24rem;
+	margin-top: auto;
+	font-size: 0.144rem;
+	margin-left: 0.024rem;
+	color: #ced1d5;
+	font-weight: normal;
+	
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_author>.lvBiao{
+	width: 0.1439rem;
+	height: 0.1439rem;
+	margin: auto 0;
+	background: url(../../images/qiongyou_list_lv.png) no-repeat center;
+	background-size: cover;
+	margin-left: .02rem;
+}
+.qiongyou_youji_list>.qiongyou_youji_info>.qiongyou_youji_list_right>.youji_list_author>.redBiao{
+	width: 0.1439rem;
+	height: 0.1439rem;
+	margin: auto 0;
+	background: url(../../images/qiongyou_list_red.png) no-repeat center;
+	background-size: cover;
+	margin-left: .02rem;
+}
+.qiongyou_youji_list_right>.youji_list_author>.youji_list_comment{
+	display: block;
+	width: 0.27rem;
+	height:0.25rem; 
+	position: absolute;
+	right: 0;
+	font-size: 0.12rem;
+	color: #E6E8EA;
+	display: flex;
+	line-height: 0.25rem;
+}
+.qiongyou_youji_list_right>.youji_list_author>.youji_list_comment>i{
+	font-size: 0.144rem;
+	color: #E6E8EA;
+	line-height: 0.24rem;
+	height: 0.24rem;
+	width: 0.144rem;
+	margin: 0 0.02rem 0 0;
+}
+.icon-huifu:before {
+    content:'\EA54'
+}
+
+.qiongyou_youji_list_All{
+    display:block;
+    margin-bottom:0.24rem;
+    line-height:0.396rem;
+    border:1px solid #e6e8ea;
+    border-radius: 0.036rem;
+    color:#9ea3ab;
+    font-size:0.16rem;
+    text-decoration:none;
+    text-align:center
+
+}
+
+/*页脚*/
+#qiongyou_footer{
+	width: 100%;
+	height: 1.1rem;
+	border-top: 6px solid #2bab79;
+	background: #2d3741;
+}
+#qiongyou_footer>p:first-child{
+	width: 100%;
+	height: 0.48rem;
+	padding: 0 0.51rem;
+	display: -webkit-flex;
+	display: flex;
+}
+#qiongyou_footer>p:first-child>a{
+	display: block;
+	font-size: 0.18rem;
+	padding: 0.12rem;
+	color: #9ea3ab;
+}
+#qiongyou_footer>p:last-child{
+	color: #656669;
+	line-height: 0.168rem;
+	font-size: 0.12rem;
+	text-align: center;
+}
+#qiongyou_mask{
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	z-index: 99;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#qiongyou_mask>.qiongyou_mask_top{
+	width: 100%;
+	height: 0.44rem;
+	display: flex;
+}
+#qiongyou_mask>.qiongyou_mask_top>span{
+	display: block;
+	width: 0.41rem;
+	height: 0.44rem;
+	font-size: 0.18rem;
+	color: #8dabbb;
+	border-right: 1px solid #8dabbb;
+	border-bottom: 1px solid #8dabbb;
+	background: white;
+	display: flex;
+}
+@font-face {
+	font-family: "wan_font";
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?v=1468205515452');
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?#iefix') format('embedded-opentype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.woff?v=1468205515452') format('woff'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.ttf?v=1468205515452') format('truetype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.svg#wan_font?v=1468205515452') format('svg');
+}
+.iconfont-back:before {
+    content: '\EA6B';
+}
+#qiongyou_mask>.qiongyou_mask_top>span>i{
+	font-family: "wan_font" !important;
+	width: 0.18rem;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	margin: auto;
+}
+#qiongyou_mask>.qiongyou_mask_top>input{
+	width: 3.02rem;
+	height: 0.44rem;
+	padding: 0 0.1rem;
+	border: none;
+	border-bottom: 1px solid #8dabbb;
+}
+#qiongyou_mask>.qiongyou_mask_top>a{
+	width: 0.72rem;
+	height: 0.44rem;
+	background: #2bab79;
+	color: white;
+	font-weight:0.18rem ;
+	text-align: center;
+	line-height: 0.44rem;
+}

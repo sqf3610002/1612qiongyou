@@ -1,0 +1,44 @@
+
+
+/*头部的绿条*/
+#allDestination .name{height:0.4rem;width:100%;display:flex;background:linear-gradient(to right,#4ec872,#10c0a5)}
+#allDestination .name p{color:#fff;width:60%;font-size:0.16rem;text-align:center;line-height:0.4rem;}
+#allDestination .name_ico{color:#FFF;font-weight:bold;font-size:18px;width:20%;height:0.4rem;line-height:0.4rem;text-align:center;}
+#allDestination .icon-back:before{content:"\e60d";}
+
+/*筛选*/
+#allDestination .header{background:#fff;height:0.4rem;font-size:0.135rem;display:flex;box-shadow:0 0.01rem 0.015rem 0 rgba(0,0,0,.1);}
+#allDestination .header div{text-align:center;line-height:0.4rem;}
+#allDestination .destination{width:38%;color:#40c895 ! important;}
+#allDestination .filter{width:38%;}
+#allDestination .sort{width:24%;border-left:0.01rem solid #ededed;}
+#allDestination .icon-arrow-down:before{content:"\e636";display:inline-block;font-size:0.06rem;color:rgba(31,32,35,.8);margin-left:0.02rem;}
+#allDestination .icon-rank:before{content:"\e638";font-size:12px;color:#40c895;margin:-0.02rem 0.05rem 0 0;font-size: 0.15rem;}
+#allDestination .destination span:before{color:#40c895;transform:rotate(180deg);}
+/*主体*/
+#allDestination .main{display: flex;height: 6.56rem;}
+#allDestination .ul1 li{text-align: center; border-bottom:0.01rem solid #ededed;height: 0.48rem;width: 1.03rem;padding: 0.15rem 0.13rem;}
+#allDestination .ul1 .choose{background: #f5f5f5;font-weight: bold;}
+#allDestination .ul2{overflow-y: scroll;} 
+#allDestination .ul2 li{width: 1.65rem;text-align: center;border-bottom:0.01rem solid #ededed;height: 0.48rem;padding: 0.15rem 0.13rem;font-size: 0.15rem;background: #f5f5f5;}
+
+@font-face{font-family:zworld;src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');font-weight:400;font-style:normal}
+.zwui-iconfont{font-family:zworld!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+#allDestinationBox{
+	position: absolute;
+	top: 0.8rem;
+	left: 0;
+	width: 100%;
+}
+.main>.ul1{
+	background: white;
+}
+.main>.ul1>li{
+	border-bottom: 1px solid #ececec;
+	font-size: 0.15rem;
+}
+.main>.ul1>li.choose{
+	background: #f5f5f5;
+	color: #636363;
+	font-weight: 700;
+}

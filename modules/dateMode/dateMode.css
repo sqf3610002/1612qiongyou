@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-family: Helvetica;
+	font-size: .16rem;
+}
+@font-face {
+	font-family: "wan_font";
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?v=1468205515452');
+	src: url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.eot?#iefix') format('embedded-opentype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.woff?v=1468205515452') format('woff'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.ttf?v=1468205515452') format('truetype'), url('http://common1.qyerstatic.com/wan_m/common/fonts/wan_font.svg#wan_font?v=1468205515452') format('svg');
+}
+
+.iconfont {
+	font-family: "wan_font" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.iconfont-search:before {
+    content: '\EA7B';
+}
+
+.iconfont-arrow-down:before {
+    content: '\EA42';
+}
+
+
+.iconfont-back:before {
+    content: '\EA6B';
+}
+.iconfont-arrow-down:before {
+    content: '\EA42';
+}
+.iconfont-date:before {
+    content: '\EA77';
+}
+.iconfont-menu:before{content:'\EA69'}
+.play header{
+	height: 0.44rem;
+	background: #0CBF79;
+	font-size: 0.20rem;
+	line-height: 0.44rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.05rem;
+}
+.play header>a>div{
+	color: #fff;
+
+}
+.play header>a>i{
+	font-size: 0.25rem;
+	color: #fff;
+}
+.play section{
+	display: flex;
+	font-size: .16rem;
+	justify-content: space-between;
+	padding: .08rem .12rem;
+	border-bottom: 1px solid #D7D7D7;
+	background: #fff;
+	color: #848484;
+}
+.play section div{
+	display: flex;
+	align-items:center;
+}
+.play section div:last-child i{
+	font-size: 0.2rem;
+}
+.play .play-bg ul{
+	color: #737373;
+	font-size: 0.16rem;
+	background: #fff;
+	padding: 0 .1rem;
+}
+.play .play-bg{
+	background: rgba(0,0,0,.5);
+	height: 10rem;
+
+}
+.play .play-bg ul li{
+	
+	line-height: .4rem;
+	height: .4rem;
+	border-bottom: 1px solid #E7E7E7;
+}
+.play .play-bg ul li a{
+	display: flex;
+	justify-content: space-between;
+}
+.play .play-bg ul>li:first-child a{
+	color: #24C586;
+}
+.play .fixed{
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	top: 0;
+}
+
+.dateMode-time{
+	background: #F6F6F6;
+	margin-top: .84rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: .16rem;
+	padding: .1rem .1rem;
+	align-items: center;
+}
+.dateMode-time>div:first-of-type{
+	width: .7rem;
+}
+.dateMode-time>div:last-child{
+	border:1px solid #A0A0A0;
+	padding: .06rem .1rem;
+	border-radius: .05rem;
+}
+.date-list {
+	border-bottom: 1px solid #D0D0D0;
+	overflow: hidden;
+	padding-bottom: .1rem;
+}
+.date-list ul{
+	border-left: 1px solid #c0c0c0;
+	padding:  0 .1rem;
+	margin-top: .1rem;
+}
+.date-list .content li>a{
+	display: block;
+	padding: .08rem 0;
+	padding-right: .05rem;
+	border-bottom: 1px solid #c0c0c0;
+	line-height: .2rem;
+}
+.date-list li:last-child>a{
+	border: none;
+}
+.date-list .date{
+	width: 15%;
+	float: left;
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+	margin-top: .6rem;
+
+}
+.date-list .date span:last-child{
+	font-size: .12rem;
+	color: #444;
+	padding-top: .05rem;
+}
+.date-list .content{
+	width: 85%;
+	float: left;
+}
+.date-list .day{
+	display: block;
+    width: .3rem;
+    height: .3rem;
+    line-height: .36rem;
+    text-align: center;
+    color: #ff7466;
+    background: url(http://common1.qyerstatic.com/wan_m/common/images/icon-date.png) no-repeat 0 0;
+    background-size: contain;
+}
+.date-list h3{
+	font-weight: normal;
+	font-size: .16rem;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #444444;
+}
+.date-list .content span{
+	color: #C4C4C4;
+}

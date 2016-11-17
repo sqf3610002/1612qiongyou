@@ -1,0 +1,62 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="icomoon1.css">
+	<link rel="stylesheet" href="dateMode.css">
+</head>
+<body> -->
+	<div class="play">
+		<div class="fixed">
+			<header>
+				<a ui-sref="play"><i class="iconfont iconfont-back">
+				</i></a>
+				
+				<a href="#"><div><span>北京</span><i class="iconfont iconfont-arrow-down"></i></div></a>
+				<a href="#"><i class="iconfont iconfont-search"></i></a>
+			</header>
+			<section>
+				<div ng-click="showClick()">{{type}}<i class="iconfont iconfont-arrow-down"></i></div>
+				<div>
+					<a ui-sref="play"><i class="iconfont iconfont-menu"></i>
+					列表模式</a>
+					
+				</div>
+			</section>
+			<div class="play-bg" ng-hide="flag">
+				<ul class="">
+					<li ng-click="allClick()" class="{{choice}}"><a href="#"><i></i><span>全部活动</span><em>40</em></a></li>
+					<li ng-click="discoverClick()" class="{{choice}}"><a href="#"><i></i><span>发现城市</span><em>34</em></a></li>
+					<li ng-click="cityWalkClick()" class="{{choice}}"><a href="#"><i></i><span>CityWalk</span><em>&nbsp;&nbsp;&nbsp;6</em></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="dateMode-time">
+			<div></div>
+			<div>2016年11月</div>
+			<div>下一月</div>
+		</div>
+		<ul class="date-list" ng-repeat = "x in arr.data.date_list">
+			<li>
+				<div class="date">
+					<span class="day">{{x.dd}}</span>
+					<span class="week">周{{x.week}}</span>
+				</div>
+				<div class="content">
+					<ul>
+						<li ng-repeat = "y in x.list">
+							<a href="#">
+								<h3>{{y.title}}</h3>
+								<span>{{y.type}}</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		
+	</div>
+<!-- </body>
+</html> -->

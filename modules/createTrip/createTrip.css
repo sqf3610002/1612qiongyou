@@ -1,0 +1,76 @@
+@charset="utf-8";
+/*页面字体大小*/
+body{
+	font-size: 0.168rem;
+}
+/*页面渐变色背景*/
+.mod-createTrip{
+	width: 100%;
+	height: 7.36rem;
+	background: -webkit-linear-gradient(left top, #72ca64 , #23ab7b); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(bottom right, #72ca64, #23ab7b); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(bottom right, #72ca64, #23ab7b); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to bottom right, #72ca64 , #23ab7b); /* 标准的语法 */
+	line-height: 0.31rem;
+	color: #fff;
+	/*padding: 0.129rem 0.258rem 0.647rem 0.258rem;*/
+	padding-top: 0.129rem;
+}
+.mod-createTrip div{
+	margin-bottom: 0.2rem;
+}
+.mod-createTripo img{
+	width: 0.168rem;
+	height: 0.16rem;
+}
+#create-trip-header,#create-trip-main{
+	padding: 0 0.258rem;
+	margin: 0 auto;
+}
+#create-trip-header h3{
+	height: 0.704rem;
+	line-height: 0.704rem;
+	font-size: 0.453rem;
+	margin-top: 0.194rem;
+}
+#create-trip-header p{
+	height: 0.31rem;
+	line-height: 0.31rem;
+	font-size: 0.155rem;
+	margin-bottom: 0.259rem;
+}
+/*主体样式*/
+#create-trip-main p{
+	margin-bottom: 0.097rem;
+}
+.create-trip-cities{
+	width: 100%;
+	height: 0.537rem;
+	line-height: 0.537rem;
+	text-align: center;
+	border: 0.01rem solid #9ddaae;
+	background: rgba(255,255,255,0.1);
+}
+.create-trip-add{
+	width: 1.164rem;
+	height: 1.164rem;
+	line-height: 1.164rem;
+	background: rgba(255,255,255,0.1);
+	border: 0.01rem solid #9ddaae;
+	font-size: 0.194rem;
+	text-align: center;
+}
+/*下一步 样式*/
+#create-trip-footer{
+	width: 100%;
+	height: 0.569rem;
+	line-height: 0.569rem;
+	position: fixed;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	font-size: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}

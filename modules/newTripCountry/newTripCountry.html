@@ -1,0 +1,37 @@
+<div class="mod-newTripCountry">
+	<div class="newTripCountryBox">
+		<input type="text" placeholder="搜索出发及返回城市" id="newTripCInput" />
+		<ul class="newTripCClassify">
+			<li>
+				<a href="##" class="newTripCClicked">热门</a>
+			</li>
+			<li>
+				<a href="##" ng-click="showAsia()">亚洲</a>
+			</li>
+			<li>
+				<a href="##">欧洲</a>
+			</li>
+			<li>
+				<a href="##">非洲</a>
+			</li>
+			<li>
+				<a href="##">北美</a>
+			</li>
+		</ul>
+		<div class="newTripCountryList">
+			<div class="newTripCImg" ng-repeat="x in newTripCountryData.data">
+				<img data-src="{{x.countryimg}}" class="lazy-img" />
+				<p>{{x.countryname}}</p>
+				<div class="newTripOkImg">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="newTripEmptyBox">
+		
+	</div>
+	<footer id="newTripCfooter" ui-sref="createTrip">
+		取消
+	</footer>
+</div>

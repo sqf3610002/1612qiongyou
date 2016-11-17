@@ -1,0 +1,75 @@
+
+	<!-- 顶部固定定位 -->
+	<a href="###" id="bag_banner">
+		<span class="bag_inner">
+			<img src="http://static.qyer.com/static/guide/common/img/banner_bg_nc.png">
+		</span>
+	</a>
+	<!-- 头部 -->
+	<header id="bag_header">
+		<img src="http://static.qyer.com/static/guide/common/img/h5/logo.png">
+		<h1 class="bag_title">穷游锦囊</h1>
+		<img src="http://static.qyer.com/static/guide/common/img/h5/topbar_nav.png">
+	</header>
+	<!-- 搜索 -->
+	<section id="bag_search">
+		<input type="text" placeholder="搜索你想要的锦囊"></input>
+	</section>
+	<!-- 导航 -->
+	<section id="bag_nav">
+		<ul class="guideMenu">
+			<li ng-click="hotClick()"><span class="show">热门</span></li>
+			<li ng-click="AsiaClick()"><span>亚洲</span></li>
+			<li ng-click="EuropeClick()"><span>欧洲</span></li>
+			<li ng-click="NorthAmericaClick()"><span>北美洲</span></li>
+			<li ng-click="SouthAmericaClick()"><span>南美洲</span></li>
+			<li ng-click="OceaniaClick()"><span>大洋洲</span></li>
+			<li ng-click="AfricaClick()"><span>非洲</span></li>
+			<li ng-click="AntarcticaClick()"><span>南极洲</span></li>
+		</ul>
+	</section>
+	<!-- 主体 -->
+	<section id="bag_main">
+		<ul class="guideList">
+			<li ng-repeat="x in bagData">
+				<img ng-src="{{x.img}}">
+				<p><a href="###">{{x.city}}</a></p>
+				<p><a href="###">{{x.country}}</a></p>
+			</li>
+		</ul>
+		<p>喜欢穷游锦囊?下载穷游锦囊APP离线看。</p>
+		<ul class="icons">
+			<li>
+				<img src="http://static.qyer.com/static/guide/common/img/h5/app.png">
+			</li>
+			<li>
+				<a href="###"><img src="http://static.qyer.com/static/guide/common/img/h5/iphone.png"></a>
+				<p><a href="###">iPhone</a></p>
+			</li>
+			<li>
+				<a href="###"><img src="http://static.qyer.com/static/guide/common/img/h5/android.png"></a>
+				<p><a href="###">Android</a></p>
+			</li>
+		</ul>
+	</section>
+	<!-- 页脚 -->
+	<footer id="bag_footer">
+		<p>
+			<a href="###">登录&nbsp; | &nbsp;</a>
+			<a href="###">注册</a>
+		</p>
+		<p>
+			<a href="###">穷游首页&nbsp; |&nbsp;</a> 
+			<a href="###">目的地&nbsp; |&nbsp;</a>
+			<a href="###">折扣&nbsp; |&nbsp;</a>
+			<a href="###">论坛&nbsp; |&nbsp;</a>
+			<a href="###">问答</a>
+		</p>
+		<p>
+			手机版 &nbsp; | &nbsp;
+			<a href="###">电脑版</a>&nbsp; | &nbsp;
+			<a href="###">APP</a> &nbsp; | &nbsp; 
+			<a href="###">提意见</a>
+		</p>
+		<p>Copyright &copy; 2004-2015 QYERinc</p>
+	</footer>

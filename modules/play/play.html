@@ -1,0 +1,49 @@
+
+	<div class="play">
+		<div class="fixed">
+			<header>
+				<a ui-sref = "qiongyou"><i class="iconfont iconfont-back">
+				</i></a>
+				
+				<a href="#"><div><span>北京</span><i class="iconfont iconfont-arrow-down"></i></div></a>
+				<a href="#"><i class="iconfont iconfont-search"></i></a>
+			</header>
+			<section>
+				<div ng-click="showClick()">{{type}}<i class="iconfont iconfont-arrow-down"></i></div>
+				<div >
+					<a ui-sref="dateMode"><i class="iconfont iconfont-date"></i>
+					日历模式</a>
+				</div>
+			</section>
+			<div class="play-bg" ng-hide="flag">
+				<ul ng-click='listClick()'>
+					<li ng-click="allClick()" class="{{choice}}"><a href="#"><i></i><span>全部活动</span><em>40</em></a></li>
+					<li ng-click="discoverClick()" class="{{choice}}"><a href="#"><i></i><span>发现城市</span><em>34</em></a></li>
+					<li ng-click="cityWalkClick()" class="{{choice}}"><a href="#"><i></i><span>CityWalk</span><em>&nbsp;&nbsp;&nbsp;6</em></a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<ul class="play-info">
+			<li ng-repeat="x in arr" >
+				<a ui-sref="content">
+					<div>
+						<div class="float">
+							<span>{{x.type_cn}}</span>
+						</div>
+						<div class="play-img">
+							<img ng-src="{{x.pic}}" alt="">
+							<p>{{x.title}}</p>
+						</div>
+					</div>
+					<div class="play-content">
+						<p>{{x.highlight}}</p>
+						<div>
+							<div><i class='iconfont iconfont-date'></i>{{x.date}}</div>
+							<div><span>{{x.price}}</span>元起</div>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>

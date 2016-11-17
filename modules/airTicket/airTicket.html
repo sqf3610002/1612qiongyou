@@ -1,0 +1,125 @@
+	<div class="play">
+		<div class="fixed">
+			<header>
+				<a ui-sref="qiongyou"><i class="iconfont iconfont-back">
+				</i></a>
+				<a href="#"><div><img src="http://static.qyer.com/m/basic/images/topbar-logo.png" alt=""></div></a>
+				<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+			</header>
+			<section>
+				<div>往返机票</div>
+				<div>
+					单程机票
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="airTicket">
+		<table class="table">
+			<tbody>
+				
+				<tr>
+					<td>出发城市</td>
+					<td ng-click="startCity()">请输入出发城市</td>
+				</tr>
+				<tr>
+					<td>到达城市</td>
+					<td ng-click="endCity()">请输入到达城市</td>
+				</tr>
+				<tr>
+					<td>去程日期</td>
+					<td><input type="text" id="date1" placeholder="{{curDate}}"/></tr>
+				<tr>
+					<td>返程日期</td>
+					<td><input type="text" id="date2" placeholder="{{endDate}}"/></td>
+				</tr>
+				<!-- <tr>
+					<td colspan="2" class="more">更多选项</td>
+				</tr> -->
+				<tr>
+					<td>成人</td>
+					<td class="personNum">
+						<div class="minus"></div>
+						
+						<span>1<select>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+						</select></span>
+						<div class="plus" ></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="button">
+			<button>搜索机票</button>
+		</div>
+		<div class="data-support">
+			<p>数据支持</p>
+			<p>
+				<img src="http://static.qyer.com/m/project/flight/images/new/copyright.jpg">
+			</p>
+		</div>
+		<footer >
+	        <p>2004-2015 © 穷游网™ qyer.com All rights reserved.</p>
+	        <p>
+			    <span>手机版</span>
+	            <span>电脑版</span>
+	            <span>APP</span>
+            </p>
+		</footer>
+	</div>
+	<div class="bg-search" ng-show="flag">
+		<div>
+			<div class="search">
+				<a ng-click="searchBack()"><i class="iconfont iconfont-back">
+					</i></a>
+				<input type="text" placeholder="搜索">
+			</div>
+			<div class="cityList">
+				<ul>
+					<li>北京</li>
+					<li>上海</li>
+					<li>广州</li>
+					<li>杭州</li>
+					<li>深圳</li>
+					<li>成都</li>
+					<li>南京</li>
+					<li>海口</li>
+					<li>昆明</li>
+					<li>重庆</li>
+					<li>大连</li>
+					<li>福州</li>
+					<li>桂林</li>
+					<li>哈尔滨</li>
+					<li>南宁</li>
+					<li>三亚</li>
+					<li>沈阳</li>
+					<li>武汉</li>
+					<li>珠海</li>
+					<li>西安</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var calendar1 = new LCalendar();
+		    calendar1.init({
+		        'trigger': '#date1', //标签id
+		        'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+		        'minDate': new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate() , //最小日期
+		        'maxDate': '2999-12-31' //最大日期
+		    });
+		var calendar2 = new LCalendar();
+		    calendar2.init({
+		        'trigger': '#date2', //标签id
+		        'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+		        'minDate': new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate() , //最小日期
+		        'maxDate': '2999-12-31' //最大日期
+		    });
+	</script>

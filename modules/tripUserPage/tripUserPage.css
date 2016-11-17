@@ -1,0 +1,287 @@
+@charset="utf-8";
+/*此模块全局*/
+.mod-tripUserPage{
+	font-size: 0.168rem;
+}
+/*头部样式*/
+#trip-uPage-header{
+	width: 100%;
+	height: 2.44rem;
+	color: #fff;
+	font-size: 0.11rem;
+	text-align: center;
+	position: relative;
+}
+/*头部背景*/
+.trip-uPage-hImg{
+	width: 100%;
+	height: 2.44rem;
+	background: url(../../images/trip-img1.jpg) no-repeat center center;
+	background-size: 4.20rem 2.44rem;
+	/*照片玻璃磨砂效果*/
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(2px); /* Chrome, Opera */
+       -moz-filter: blur(2px);
+        -ms-filter: blur(2px);    
+            filter: blur(2px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+/*头部内容的样式*/
+.trip-uPage-headerBox{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 2.44rem;
+}
+.trip-uPage-menuBtn,.trip-uPage-btnList li{
+	width: 0.45rem;
+	height: 0.45rem;
+	background: red;
+	display: inline-block;
+}
+.trip-uPage-menuBtn{
+	float: left;
+}
+.trip-uPage-btnList{
+	float: right;
+	font-size: 0;
+}
+.trip-weather{
+	clear: both;
+}
+.trip-weather p{
+	height: 0.24rem;
+	line-height: 0.24rem;
+}
+/*天气图片*/
+.trip-weather-img{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: red;
+	margin: 0 auto;
+	margin-top: 0.6rem;
+}
+.trip-weather-date{
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.trip-dot li{
+	width: 0.05rem;
+	height: 0.05rem;
+	margin: 0 0.05rem;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	/*margin-top: 0.2rem;*/
+	opacity: 0.4;
+}
+.trip-dot-on{
+	opacity: 1!important;
+}
+.trip-uPage-hBox{
+	height: 0.64rem;
+	text-align: left;
+	margin-top: 0.08rem;
+	background: rgba(0,0,0,0.4);
+}
+/*用户头像*/
+.trip-uPage-uPhoto{
+	width: 0.7rem;
+	height: 0.64rem;
+	float: left;
+	text-align: center;
+	padding-top: 0.08rem;
+}
+.trip-uPage-uPhoto img{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	margin-top: 0.05rem;
+}
+.trip-uPage-title{
+	line-height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.16rem;
+	font-weight: 400;
+	padding-top: 0.1rem;
+}
+.trip-uPage-date{
+	font-size: 0.11rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+}
+/*主体样式*/
+/*行程列表*/
+.trip-uPage-list{
+	width: 100%;
+	background: #f7f7f7;
+}
+/*第几天*/
+.trip-uPage-nDay{
+	width: 100%;
+	font-size: 0.13rem;
+	color: #585858;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 0.1rem;
+	background: #fff;
+}
+.trip-uPage-nDay h3{
+	color: #41c074;
+}
+.trip-uPage-nTitle{
+	padding: 0.1rem 0.35rem 0.06rem 0.15rem;
+}
+.trip-uPage-nTitle p{
+	height: 0.24rem;
+	line-height: 0.24rem;
+	border-bottom: 0.01rem solid #ccc;
+	padding-bottom: 0.3rem;
+}
+.trip-uPage-nDayN{
+	font-size: 0.16rem;
+}
+.trip-uPage-nDateN{
+	font-size: 0.14rem;
+}
+.trip-uPage-trafficImg img{
+	width: 0.3rem;
+	height: 0.3rem;
+	vertical-align: middle;
+	margin: 0 0.1rem 0 0.15rem;
+}
+.trip-uPage-place{
+	width: 100%;
+	height: 0.65rem;
+	line-height: 0.65rem;
+}
+.trip-uPage-distance{
+	width: 100%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	background: #eee;
+	padding-left: 0.1rem;
+	color: #a8a8a8;
+}
+/*助手*/
+.trip-uPage-helper{
+	width: 100%;
+	height: 3.875rem;
+	background: url(../../images/trip-uPage-bg.png) no-repeat center center;
+	background-size: 4.14rem 3.875rem;
+}
+.trip-uPage-helperBox{
+	text-align: center;
+	color: #fff;
+	font-size: 0.25rem;
+	padding-top: 0.8rem;
+}
+.trip-uPage-helperBox p{
+	height: 0.375rem;
+	line-height: 0.375rem;
+}
+/*相关行程*/
+.trip-uPage-related{
+	padding: 0 0.1rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.trip-related-title,.trip-askList-title{
+	font-size: 0.197rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	padding: 0.2rem 0 0 0.1rem;
+	/*margin-bottom: 0.25rem;*/
+}
+.trip-uPage-relatedB{
+	clear: both;
+	padding-top: 0.2rem;
+	padding-bottom: 1rem;
+}
+.trip-uPage-relatedB:first-of-type{
+	border-bottom: solid 1px #e5e5e5;
+}
+.trip-related-img{
+	width: 0.75rem;
+	height: 0.75rem;
+	overflow: hidden;
+	float: left;
+}
+.trip-related-img img{
+	width: 1.13rem;
+	height: 0.75rem;
+}
+.trip-related-detail{
+	width: 3.14rem;
+	font-size: 0.12rem;
+	color: #333;
+	float: right;
+	overflow: hidden;
+	margin-right: 0.05rem;
+}
+.trip-related-detail h4{
+	text-align: center;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	font-size: 0.18rem;
+}
+.trip-related-detail p{
+	line-height: 0.18rem;
+	padding: 0 0.1rem;
+}
+.trip-related-detail span{
+	color: #b1b1b1;
+}
+.trip-related-detail img{
+	vertical-align: middle;
+}
+.trip-uPage-watched{
+	float: right;
+	/*margin-right: 0.1rem;*/
+}
+/*相关问题*/
+.trip-u-question{
+	margin-bottom: 0.1rem;
+}
+.trip-u-askList{
+	width: 100%;
+	margin-top: 0.3rem;
+	font-size: 0.12rem;
+}
+.trip-u-askList li{
+	height: 0.45rem;
+	line-height: 0.45rem;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 0 0.1rem;
+}
+.trip-u-askList a{
+	color: #585858;
+}
+/*占位*/
+.trip-uPage-emptyBox{
+	width: 100%;
+	height: 0.5rem;
+	background: transparent;
+	clear: both;
+}
+/*页面底部*/
+#trip-uPage-footer{
+	width: 100%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 0.16rem;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+#trip-uPage-footer{
+	display: -webkit-flex;
+	display: flex;
+}
+#trip-uPage-footer div{
+	-webkit-flex: 1;
+	flex: 1;
+} 
+.trip-uPage-copy{
+	border-right: 0.01rem solid #fff; 
+}

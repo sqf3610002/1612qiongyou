@@ -1,0 +1,33 @@
+
+	<div id="doorTicket">
+		<!-- 头部的绿条 -->
+		<div class="name">
+			<span class="name_ico icon-back zwui-iconfont" ui-sref = "firstPage"></span>
+			<p>接送机</p>
+			<span class="name_ico"></span>
+		</div>
+		<!-- 全部目的地、筛选 -->
+		<div class="header">
+			<div class="destination">全部目的地<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="filter">筛选<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="sort"><span class="zwui-iconfont icon-rank"></span>排序</div>
+		</div>
+		<!-- 全部 -->
+        <!-- 主体部分 -->
+		 <div class="main">
+        	<ul class="main_ul">
+        		<li ng-repeat="z in shuttleData">
+        			<div class="active" ng-show="{{z.is11}}">WiFi</div>
+        			<div class="pic">
+        				<img ng-src="{{z.img}}" />
+        			</div>
+        			<div class="content">
+        				<p class="content_p1"><span>{{z.type}}</span><span class="zwui-iconfont icon-local2">{{z.name}}</span></p>
+        				<h3>{{z.info}}</h3>
+        				<p class="content_p2"><span>{{z.number}}已售</span><span><em>{{z.price}}</em>元起</span></p>
+        			</div>
+        		</li>
+        	</ul>
+        </div>
+               
+	</div>

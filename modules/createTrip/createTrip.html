@@ -1,0 +1,39 @@
+<div class="mod-createTrip">
+	<header id="create-trip-header">
+		<h3>
+			Step1
+		</h3>
+		<p>
+			旅行地相关
+		</p>
+	</header>
+	<div id="create-trip-main">
+		<p>
+			<img src="" />
+			我的出发及返回城市
+		</p>
+		<div class="create-trip-cities" ui-sref="newTripCities">
+			{{create_trip}}
+		</div>
+		<p>
+			<img src="" />
+			我想去的国家或地区
+		</p>
+		<div class="create-trip-add" ui-sref="newTripCountry">
+			{{jia}}
+			<img ng-src="{{createImg}}" ng-show="{{createShow}}" style="width: 100%;height: 100%;"/>
+		</div>
+		<p>
+			<img src="" />
+			必去城市(选填)
+		</p>
+		<div>
+			<div class="create-trip-add" ui-sref="newTripCHotCity">
+				{{jia2}}
+				<img ng-src="{{createImg2}}" ng-show="{{trip_add2Show}}" style="width: 100%;height: 100%;"/>
+
+		</div>
+		<footer id="create-trip-footer" ui-sref = "trip">
+				下一步
+		</footer>
+</div>

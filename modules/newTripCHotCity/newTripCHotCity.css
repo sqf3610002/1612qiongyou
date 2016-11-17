@@ -1,0 +1,161 @@
+@charset="utf-8";
+/*页面渐变色背景*/
+.mod-newTripCHotCity{
+	width: 100%;
+	/*height: 7.36rem;*/
+	/*height: 100%;*/
+	background: -webkit-linear-gradient(left top, #72ca64 , #23ab7b);
+	background: -o-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: -moz-linear-gradient(bottom right, #72ca64, #23ab7b);
+	background: linear-gradient(to bottom right, #72ca64 , #23ab7b);
+	line-height: 0.31rem;
+	color: #fff;
+	padding-top: 0.129rem;
+	font-size: 0.168rem;
+}
+.newTripCHCBox{
+	width: 3.62rem;
+	margin: 0 auto;
+}
+.newTripCHCBox h3{
+	height: 0.633rem;
+	line-height: 0.633rem;
+	font-size: 0.181rem;
+	font-weight: normal;
+}
+/*热门城市列表*/
+.newTripCHCList{
+	overflow: hidden;
+}
+.newTripCHCImg{
+	width: 1.164rem;
+	height: 1.164rem;
+	float: left;
+	margin-right: 0.042rem;
+	position: relative;
+	margin-bottom: 0.2rem;
+}
+.newTripCHCImg img{
+	width: 1.164rem;
+	height: 1.164rem;
+}
+.newTripCHCImg p{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.newTripEmptyBox{
+	width: 100%;
+	height: 1.8rem;
+	background: transparent;
+}
+/*页面底部*/
+#newTripCHCFooter{
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+.newTripCountryOk{
+	width: 100%;
+	height: 1.06rem;
+	border-bottom: 0.01rem solid transparent;
+	background: #198760;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+.newTripCountryOk li{
+	width: 0.712rem;
+	height: 1.06rem;
+	position: relative;
+	/*font-size: 0;*/
+}
+.newTripCountryOk img{
+	width: 0.453rem;
+	height: 0.453rem;
+	border-radius: 50%;
+	margin-top: 0.2rem;
+	/*-webkit-box-reflect:below 0.05rem -webkit-gradient(linear,left top,right bottom,from(rgba(0,0,0,1)),to(rgba(255,255,255,0.1)));*/
+	-webkit-box-reflect: below 0.05rem -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.3)));
+}
+}
+.newTripCountryOk p{
+	width: 100%;
+	font-size: 0.155rem;
+	line-height: 0.31rem;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	opacity: 0.3;
+	/*z-index: 100;*/
+}
+/*当前显示的城市列表的国家*/
+/*动画*/
+@keyframes ImgAnimation{
+	from{width: 0.453rem;height: 0.453rem;margin-top: 0.2rem}
+	to{width: 0.647rem;height: 0.647rem;margin-top: 0.05rem}
+}
+@-webkit-keyframes ImgAnimation{
+	from{width: 0.453rem;height: 0.453rem;margin-top: 0.2rem}
+	to{width: 0.647rem;height: 0.647rem;margin-top: 0.05rem}
+}
+@keyframes FontAnimation{
+	from{font-size: 0.155rem;opacity: 0.3;}
+	to{font-size: 0.181rem;opacity: 1;}
+}
+@-webkit-keyframes FontAnimation{
+	from{font-size: 0.155rem;opacity: 0.3;}
+	to{font-size: 0.181rem;opacity: 1;}
+}
+@keyframes ImgAnimationBack{
+	from{width: 0.647rem;height: 0.647rem;margin-top: 0.05rem}
+	to{width: 0.453rem;height: 0.453rem;margin-top: 0.2rem}
+}
+@-webkit-keyframes ImgAnimationBack{
+	from{width: 0.647rem;height: 0.647rem;margin-top: 0.05rem}
+	to{width: 0.453rem;height: 0.453rem;margin-top: 0.2rem}
+}
+@keyframes FontAnimationBack{
+	from{font-size: 0.181rem;opacity: 1;}
+	to{font-size: 0.155rem;opacity: 0.3;}
+}
+@-webkit-keyframes FontAnimationBack{
+	from{font-size: 0.181rem;opacity: 1;}
+	to{font-size: 0.155rem;opacity: 0.3;}
+}
+.newTripCSelected img{
+	width: 0.647rem!important;
+	height: 0.647rem!important;
+	margin-top: 0.05rem;
+	animation: ImgAnimation 0.5s;
+	-webkit-animation: ImgAnimation 0.5s;
+	/*animation-fill-mode: forwards;*/
+}
+.newTripCSelected p{
+	font-size: 0.181rem!important;
+	opacity: 1!important;
+	animation: FontAnimation 0.5s;
+	-webkit-animation: FontAnimation 0.5s;
+	/*animation-fill-mode: forwards;*/
+}
+.newTripCNoSelected img{
+	animation: ImgAnimationBack 0.5s !important;
+	-webkit-animation: ImgAnimationBack 0.5s !important;
+	/*animation-fill-mode: forwards;*/
+}
+.newTripCNoSelected p{
+	animation: FontAnimationBack 0.5s !important;
+	-webkit-animation: FontAnimationBack 0.5s !important;
+	opacity: 0.3!important;
+	/*animation-fill-mode: forwards;*/
+}
+/*确定按钮*/
+.newTripCHCOk{
+	width: 100%;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	background: #198760;
+}

@@ -1,0 +1,158 @@
+
+	<div id="firstPage">
+		<div class="name">
+			<span class="name_ico icon-drawer zwui-iconfont" ng-click="commonNavShow()"></span>
+			<p><img src="http://common1.qyerstatic.com/zworld/m/project/index/images/logo.png"></p>
+			<span class="name_ico"></span>
+		</div>
+		<div class="nav">
+			<ul>
+				<li ui-sref = "free">
+					<div class="common zwui-iconfont icon-package"></div>
+					<p>自由行</p>
+				</li>
+				<li ui-sref ="cityPlay" >
+					<div class="common zwui-iconfont icon-local"></div>
+					<p>城市玩乐</p>
+				</li>
+				<li ui-sref = "visa" >
+					<div class="common zwui-iconfont icon-visa"></div>
+					<p>签证</p>
+				</li>
+				<li ui-sref ="wifi">
+					<div class="common zwui-iconfont icon-wifi"></div>
+					<p>WIFI</p>
+				</li>
+				<li ui-sref = "shuttle">
+					<div class="common zwui-iconfont icon-shuttle"></div>
+					<p>接送机</p>
+				</li>
+				<li ui-sref = "specialOffer">
+					<div class="common zwui-iconfont icon-sale"></div>
+					<p>特卖</p>
+				</li>
+				<li ui-sref ="findCity">
+					<div class="common zwui-iconfont icon-explore-city"></div>
+					<p>发现城市</p>
+				</li>
+				<li>
+					<div class="common zwui-iconfont icon-citywalk"></div>
+					<p>CityWalk</p>
+				</li>
+			</ul>
+		</div>
+		<!-- 搜索条 -->
+		<div class="search">
+			<a  class="search_a"><span class="search_sp icon-search zwui-iconfont"></span>搜索目的地/折扣/关键字</a>
+		</div>
+		<div class="main">
+			<ul id="main_ul">
+				<li class="choose" ng-click="hotPlace()">热门目的地</li>
+				<li ng-click="allCty()">全部国家</li>
+			</ul>
+		</div>
+		<!-- 各个城市的图片 -->
+		<table class="tb" ng-show="flag">
+			<tbody>
+				<tr>
+					<td colspan="2">
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-01.jpg"  class="big">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-02.jpg" class="big">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-03.jpg">
+					</td>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-04.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-05.jpg">
+					</td>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-06.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-07.jpg">
+					</td>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-08.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-09.jpg">
+					</td>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-10.jpg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-11.jpg">
+					</td>
+					<td>
+						<img src="http://zworld.qyerstatic.com/m/project/index/images/dest/destination-12.jpg">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- 全部国家 -->
+		<div class="country" ng-show="show">
+			<h3>亚洲</h3>
+			<a href="###" ng-repeat="x in arr">{{x.name}}</a>
+			
+			<h3>欧洲</h3>
+			<a href="###" ng-repeat="x in arr1">{{x.name}}</a>
+			
+			<h3>大洋洲</h3>
+			<a href="###" ng-repeat="x in arr2">{{x.name}}</a>
+			
+			<h3>北美</h3>
+			<a href="###" ng-repeat="x in arr3">{{x.name}}</a>
+			
+			<h3>非洲</h3>
+			<a href="###" ng-repeat="x in arr4">{{x.name}}</a>
+			
+			<h3>南美</h3>
+			<a href="###" ng-repeat="x in arr5">{{x.name}}</a>
+			
+			<h3>南极洲</h3>
+			<a href="###">南极</a>
+		</div>
+		<!-- 页脚说明部分 -->
+		<div class="explain">
+			<p class="copyright">2004-2015 © 穷游网™ qyer.com All rights reserved.</p>
+			<p class="explain_p">
+				<span>手机版</span>
+				<span class="black">电脑版</span>
+				<span class="black">APP</span>
+			</p>
+		</div>
+		<!-- 页脚固定部分 -->
+		<footer>
+			<ul class="footul">
+				<li class="green">
+					<div class="zwui-iconfont icon-home"></div>
+					<p>首页</p>
+				</li>
+				<li ui-sref="find">
+					<div class="zwui-iconfont icon-explore"></div>
+					<p>发现</p>
+				</li>
+				<li ui-sref="logIn">
+					<div class="zwui-iconfont icon-my"></div>
+					<p>我的</p>
+				</li>
+			</ul>
+		</footer>
+	</div>
