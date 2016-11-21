@@ -7,6 +7,30 @@ angular.module('SortingModules',['ui.router'])
                controller:'SortingCtrl',
                css:'./modules/free/free.css'
           })
+		  $stateProvider.state('cityPlay.sorting',{
+			   url:'/sorting',
+			   templateUrl:'./modules/sorting/sorting.html',
+			   controller:'SortingCtrl',
+			   css:'./modules/free/free.css'
+		  })
+		  $stateProvider.state('visa.sorting',{
+			  url:'/sorting',
+			  templateUrl:'./modules/sorting/sorting.html',
+			  controller:'SortingCtrl',
+			  css:'./modules/free/free.css'
+		 })
+		 $stateProvider.state('wifi.sorting',{
+			 url:'/sorting',
+			 templateUrl:'./modules/sorting/sorting.html',
+			 controller:'SortingCtrl',
+			 css:'./modules/free/free.css'
+		})
+		$stateProvider.state('shuttle.sorting',{
+			url:'/sorting',
+			templateUrl:'./modules/sorting/sorting.html',
+			controller:'SortingCtrl',
+			css:'./modules/free/free.css'
+	   })
 
      })
 	.controller('SortingCtrl',['$scope','$http',function($scope,$http){

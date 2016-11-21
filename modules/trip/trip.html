@@ -15,6 +15,28 @@
 				<span class="trip-list-clicked">热门行程</span>
 			</li>
 		</ul>
+		<div class="tripShowBox">
+			<div class="tripShowBox2">
+				<!-- 一分钟搞定你的攻略 标语 -->
+				<div class="trip-show-words">
+					<!-- 点击登陆注册 -->
+					<div class="trip-toLogin" ng-hide="flag">
+						<img src="images/trip-toLogin-ico.png" />
+						<a href="##">点击登陆或注册,体验更多哟~</a>
+						<div class="trip-closeLogin" ng-click="closeIt()">X</div>
+					</div>
+					<div class="trip-helper-banner">
+						<p>拿上别人的行程即刻出发；全程线路规划最短路线；</p>
+						<p>导出PDF打印带上路，一键生成英文送签单；</p>
+						<p>告别办公软件吧！</p>
+					</div>
+					<div class="trip-createNewTrip" ui-sref="createTrip">
+						<img src="images/trip-createNewImg.png" />
+						创建新的行程
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- 主体 -->
 		<!-- 行程列表详情 -->
 		<div id="trip-main">

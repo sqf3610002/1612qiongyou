@@ -7,6 +7,30 @@ angular.module('ScreenHaveModules',['ui.router'])
                controller:'ScreenHaveCtrl',
                css:'./modules/free/free.css'
           })
+		  $stateProvider.state('cityPlay.screenHave',{
+               url:'/screenHave',
+               templateUrl:'./modules/screenHave/screenHave.html',
+               controller:'ScreenHaveCtrl',
+               css:'./modules/free/free.css'
+          })
+		  $stateProvider.state('visa.screenHave',{
+               url:'/screenHave',
+               templateUrl:'./modules/screenHave/screenHave.html',
+               controller:'ScreenHaveCtrl',
+               css:'./modules/free/free.css'
+          })
+		  $stateProvider.state('wifi.screenHave',{
+			   url:'/screenHave',
+			   templateUrl:'./modules/screenHave/screenHave.html',
+			   controller:'ScreenHaveCtrl',
+			   css:'./modules/free/free.css'
+		  })
+		  $stateProvider.state('shuttle.screenHave',{
+			  url:'/screenHave',
+			  templateUrl:'./modules/screenHave/screenHave.html',
+			  controller:'ScreenHaveCtrl',
+			  css:'./modules/free/free.css'
+		 })
 
      })
 	.controller('ScreenHaveCtrl',['$scope','$http',function($scope,$http){

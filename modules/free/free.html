@@ -21,10 +21,10 @@
                 <!-- 主体部分 -->
         <div class="main" ng-hide="boxShow">
         	<ul class="main_ul">
-        		<li ng-repeat="z in freeData.all">
+        		<li ng-repeat="z in freeData.all | orderBy:sortFlag">
         			<div class="active" ng-show="{{z.is11}}">11.11周年庆</div>
         			<div class="pic">
-        				<img class="lazy-img"  data-src="{{z.img}}" />
+        				<img lazy-src="{{z.img}}"/>
         			</div>
         			<div class="content">
         				<p class="content_p1"><span>{{z.type}}</span><span class="zwui-iconfont icon-local2">{{z.name}}</span></p>

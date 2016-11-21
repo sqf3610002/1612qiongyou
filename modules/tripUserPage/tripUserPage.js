@@ -8,5 +8,15 @@ angular.module('TripUserPageModules',['ui.router'])
 		})
 	})
 	.controller('TripUserPageCtrl',['$scope','$http',function($scope,$http){
-		
+		$scope.tripuPage_inputClick = function(){
+        	$("#common_nav").removeClass().addClass("common_show");
+        	$(".container").removeClass("container_hide").addClass("container_show");
+        	$(".container").off();
+	        $(".container").on("click",function(){
+        		if($("#common_nav").css("opacity")=="1"){
+	        		$("#common_nav").removeClass().addClass("common_hide");
+	        		$(".container").removeClass("container_show").addClass("container_hide");
+        		}
+	        })
+        }
 	}])

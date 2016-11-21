@@ -36,7 +36,7 @@ body{
 	to{left: 2.5rem;}
 }
 .container_hide{
-	left: 0;
+	left: 2.5rem;
 	animation: container_down 500ms forwards 1 linear;
 }
 @keyframes container_down{
@@ -51,6 +51,7 @@ body{
 	top: 0;
 	left: -2.5rem;
 	height: 7.36rem;
+	opacity: 0.9;
 	z-index: 99;
 }
 #common_nav>.common_nav_top{
@@ -142,7 +143,7 @@ body{
 	line-height: 0.45rem;
 	margin-right: 0.19rem;
 	font-size: 0.17rem;
-	font-family: 'info' !important;	
+	font-family: 'info' !important;
 	float: left;
 }
 #common_nav_main>li>.common_nav_main_text{
@@ -202,7 +203,7 @@ body{
 	line-height: 0.45rem;
 	margin-right: 0.19rem;
 	font-size: 0.17rem;
-	font-family: 'info' !important;	
+	font-family: 'info' !important;
 	float: left;
 	color: #9fceda;
 }
@@ -229,18 +230,19 @@ body{
 
 .common_show{
 	left: -2.5rem;
+	opacity: 0.9;
 	animation: common_up 500ms forwards 1 linear;
 }
 @keyframes common_up{
-	from{left: -2.5rem;}
-	to{left: 0;}
+	from{left: -2.5rem;opacity: 0.9;}
+	to{left: 0;opacity: 1;}
 }
 
 .common_hide{
-	left:0;
+	left:0;opacity: 1;
 	animation: common_down 500ms forwards 1 linear ;
 }
 @keyframes common_down{
-	from{left: 0;}
+	from{left: 0;opacity: 0.9;}
 	to{left: -2.5rem;}
 }

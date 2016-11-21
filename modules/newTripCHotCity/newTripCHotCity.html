@@ -3,20 +3,20 @@
 		<h3><span class="newTripCName">中国</span>热门城市</h3>
 		<div class="newTripCHCList">
 			<div class="newTripCHCImg" ng-repeat="x in newTripCHCData.data">
-				<img data-src="{{x.countryimg}}" class="lazy-img" />
+				<img lazy-src="{{x.countryimg}}" />
 				<p>{{x.countryname}}</p>
 				<div class="newTripOkImg">
-					
+
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="newTripEmptyBox">
-		
+
 	</div>
 	<footer id="newTripCHCFooter">
 <!-- 		<div class="newTripCountryOk">
-			
+
 		</div> -->
 		<ul class="newTripCountryOk">
 			<li class="newTripCSelected">

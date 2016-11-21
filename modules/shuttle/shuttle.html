@@ -8,18 +8,18 @@
 		</div>
 		<!-- 全部目的地、筛选 -->
 		<div class="header">
-			<div class="destination">全部目的地<span class="zwui-iconfont icon-arrow-down"></span></div>
-			<div class="filter">筛选<span class="zwui-iconfont icon-arrow-down"></span></div>
-			<div class="sort"><span class="zwui-iconfont icon-rank"></span>排序</div>
+			<div class="destination" ui-sref = ".allDestination" ng-click="boxShowClick()">全部目的地<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="filter" ui-sref=".screenHave" ng-click="boxShowClick()">筛选<span class="zwui-iconfont icon-arrow-down"></span></div>
+			<div class="sort" ui-sref=".sorting" ng-click="boxShowClick()"><span class="zwui-iconfont icon-rank"></span>排序</div>
 		</div>
 		<!-- 全部 -->
         <!-- 主体部分 -->
-		 <div class="main">
+		 <div class="main" ng-hide="boxShow">
         	<ul class="main_ul">
-        		<li ng-repeat="z in shuttleData">
+        		<li ng-repeat="z in shuttleData | orderBy:sortFlag">
         			<div class="active" ng-show="{{z.is11}}">WiFi</div>
         			<div class="pic">
-        				<img ng-src="{{z.img}}" />
+        				<img lazy-src="{{z.img}}" />
         			</div>
         			<div class="content">
         				<p class="content_p1"><span>{{z.type}}</span><span class="zwui-iconfont icon-local2">{{z.name}}</span></p>
@@ -29,5 +29,8 @@
         		</li>
         	</ul>
         </div>
-               
+
+	</div>
+	<div id="allDestinationBox" ng-show="boxShow">
+		<div ui-view=""></div>
 	</div>
