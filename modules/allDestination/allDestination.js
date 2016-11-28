@@ -7,6 +7,30 @@ angular.module('AllDestinationModules',['ui.router'])
                controller:'AllDestinationCtrl',
                css:'./modules/free/free.css'
           })
+		  $stateProvider.state('cityPlay.allDestination',{
+               url:'/allDestination',
+               templateUrl:'./modules/allDestination/allDestination.html',
+               controller:'AllDestinationCtrl',
+               css:'./modules/free/free.css'
+          })
+		  $stateProvider.state('visa.allDestination',{
+			   url:'/allDestination',
+			   templateUrl:'./modules/allDestination/allDestination.html',
+			   controller:'AllDestinationCtrl',
+			   css:'./modules/free/free.css'
+		  })
+		  $stateProvider.state('wifi.allDestination',{
+			  url:'/allDestination',
+			  templateUrl:'./modules/allDestination/allDestination.html',
+			  controller:'AllDestinationCtrl',
+			  css:'./modules/free/free.css'
+		 })
+		 $stateProvider.state('shuttle.allDestination',{
+			 url:'/allDestination',
+			 templateUrl:'./modules/allDestination/allDestination.html',
+			 controller:'AllDestinationCtrl',
+			 css:'./modules/free/free.css'
+		})
 
      })
 	.controller('AllDestinationCtrl',['$scope','$http',function($scope,$http){

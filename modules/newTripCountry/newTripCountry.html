@@ -20,16 +20,16 @@
 		</ul>
 		<div class="newTripCountryList">
 			<div class="newTripCImg" ng-repeat="x in newTripCountryData.data">
-				<img data-src="{{x.countryimg}}" class="lazy-img" />
+				<img <img  lazy-src="{{x.countryimg}}"/>
 				<p>{{x.countryname}}</p>
 				<div class="newTripOkImg">
-					
+
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="newTripEmptyBox">
-		
+
 	</div>
 	<footer id="newTripCfooter" ui-sref="createTrip">
 		取消

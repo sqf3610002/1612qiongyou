@@ -19,7 +19,7 @@
 #allDestination .main{display: flex;height: 6.56rem;}
 #allDestination .ul1 li{text-align: center; border-bottom:0.01rem solid #ededed;height: 0.48rem;width: 1.03rem;padding: 0.15rem 0.13rem;}
 #allDestination .ul1 .choose{background: #f5f5f5;font-weight: bold;}
-#allDestination .ul2{overflow-y: scroll;} 
+#allDestination .ul2{overflow-y: scroll;}
 #allDestination .ul2 li{width: 1.65rem;text-align: center;border-bottom:0.01rem solid #ededed;height: 0.48rem;padding: 0.15rem 0.13rem;font-size: 0.15rem;background: #f5f5f5;}
 
 @font-face{font-family:zworld;src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01);src:url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.eot?k32lb01#iefix) format('embedded-opentype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.ttf?k32lb01) format('truetype'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.woff?k32lb01) format('woff'),url(http://common1.qyerstatic.com/zworld/m/common/font/zworld.svg?k32lb01) format('svg');font-weight:400;font-style:normal}
@@ -41,4 +41,7 @@
 	background: #f5f5f5;
 	color: #636363;
 	font-weight: 700;
+}
+#allDestination .ul2>.whiles{
+	background: #fff;
 }

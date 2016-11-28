@@ -16,10 +16,7 @@ angular.module('NewTripCountryModules',['ui.router'])
           this.getData2 = function(){
             return $http.get('./data/newTripCountry2.json')
          }
-         // 图片懒加载
-         this.loadImgFn = function(){
-              lazyLoad.init(); 
-         }
+
          // 点击地区分类
          this.classifyClicked = function(){
                $(".newTripCClassify").on("click","a",function(e){
@@ -34,17 +31,9 @@ angular.module('NewTripCountryModules',['ui.router'])
           });
           // 点击地区分类
           newTripCountryFn.classifyClicked();
-          // 图片懒加载
-          newTripCountryFn.loadImgFn();
-          $scope.showAsia = function(){
-            newTripCountryFn.getData2();
-            newTripCountryFn.getData2().success(function(res){
-                 $scope.newTripCountryData = res;
-            });
-          };
         localFn = function(){
 			$(".newTripCountryList").on("click","img",function(e){
-				localStorage.CountryListImg = $(e.target).attr("data-src");
+				localStorage.CountryListImg = $(e.target).attr("lazy-src");
 				location.href = "index.html#/createTrip";
 			})
         }

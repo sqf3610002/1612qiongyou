@@ -13,7 +13,7 @@ angular.module('NewTripCHCModules',['ui.router'])
          }
          // 图片懒加载
          this.loadImgFn = function(){
-              lazyLoad.init(); 
+              lazyLoad.init();
          }
          // 点击页面底部国家
          this.clicked = function(){
@@ -29,13 +29,11 @@ angular.module('NewTripCHCModules',['ui.router'])
         newTripCHCFn.getData().success(function(res){
              $scope.newTripCHCData = res;
         });
-        // 图片懒加载
-        newTripCHCFn.loadImgFn();
         // 点击页面底部国家
         newTripCHCFn.clicked();
         localFn2 = function(){
 			$(".newTripCHCList").on("click","img",function(e){
-				localStorage.TripCHImg = $(e.target).attr("data-src");
+				localStorage.TripCHImg = $(e.target).attr("lazy-src");
 				location.href = "index.html#/createTrip";
 			})
         }

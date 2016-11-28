@@ -1,4 +1,5 @@
 var app = angular.module('QYW',['ui.router',
+'me-lazyload',
 'angularCSS',
 'QiongyouModules',
 'DestinationModules',
@@ -35,11 +36,11 @@ var app = angular.module('QYW',['ui.router',
 
 app.config(function($stateProvider,$urlRouterProvider){
 	 $urlRouterProvider.otherwise('/qiongyou');
-	 
+
 })
 app.controller("commonCtrl",function($scope){
     $("#common_nav_main").on("click","li",function(){
-    	if($(".container").css("left")=="250px"){
+    	if($("#common_nav").css("opacity")=="1"){
     		$("#common_nav").removeClass().addClass("common_hide");
     		$(".container").removeClass("container_show").addClass("container_hide");
     	}

@@ -116,7 +116,7 @@
 					</div>
 					<p class="qiongyou_nav_name">{{iconP}}</p>
 				</div>
-			</li>			
+			</li>
 		</ul>
 		<!--最世界商城-->
 		<div id="qiongyou_shop">
@@ -209,11 +209,11 @@
 			</h1>
 			<div class="qiongyou_youji_list">
 				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.one ">
-					<img ng-src="{{x.img}}"/>
+					<img lazy-src="{{x.img}}"/>
 					<div class="qiongyou_youji_list_right">
 						<p class="youji_list_name">{{x.name}}</p>
 						<div class="youji_list_author">
-							<img ng-src="{{x.touxiang}}"/>
+							<img  lazy-src="{{x.touxiang}}"/>
 							<b>{{x.author}}</b>
 							<span class="lvBiao" ng-show="{{x.green}}"></span>
 							<span class="redBiao" ng-show="{{x.red}}"></span>
@@ -222,11 +222,11 @@
 					</div>
 				</div>
 				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.two " ng-show="two">
-					<img ng-src="{{x.img}}"/>
+					<img lazy-src="{{x.img}}"/>
 					<div class="qiongyou_youji_list_right">
 						<p class="youji_list_name">{{x.name}}</p>
 						<div class="youji_list_author">
-							<img ng-src="{{x.touxiang}}"/>
+							<img  lazy-src="{{x.touxiang}}"/>
 							<b>{{x.author}}</b>
 							<span class="lvBiao" ng-show="{{x.green}}"></span>
 							<span class="redBiao" ng-show="{{x.red}}"></span>
@@ -235,11 +235,11 @@
 					</div>
 				</div>
 				<div class="qiongyou_youji_info" ng-repeat="x in qiongyouData.three " ng-show="three">
-					<img ng-src="{{x.img}}"/>
+					<img lazy-src="{{x.img}}"/>
 					<div class="qiongyou_youji_list_right">
 						<p class="youji_list_name">{{x.name}}</p>
 						<div class="youji_list_author">
-							<img ng-src="{{x.touxiang}}"/>
+							<img  lazy-src="{{x.touxiang}}"/>
 							<b>{{x.author}}</b>
 							<span class="lvBiao" ng-show="{{x.green}}"></span>
 							<span class="redBiao" ng-show="{{x.red}}"></span>

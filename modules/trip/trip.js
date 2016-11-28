@@ -18,11 +18,20 @@ angular.module('TripModules',['ui.router'])
         	$(".container").removeClass("container_hide").addClass("container_show");
         	$(".container").off();
 	        $(".container").on("click",function(){
-        		if($(".container").css("left")=="250px"){
+        		if($("#common_nav").css("opacity")=="1"){
 	        		$("#common_nav").removeClass().addClass("common_hide");
 	        		$(".container").removeClass("container_show").addClass("container_hide");
         		}
 	        })
         }
-         
+    $(".trip-helper-banner").on("click",function(){
+          $(".trip-show-words").addClass("tirpUpMove");
+          setTimeout(function(){
+            $(".tripShowBox").remove();
+          },1000);
+    });
+    $scope.closeIt = function(){
+        $scope.flag = true;
+    }
+
      }])
